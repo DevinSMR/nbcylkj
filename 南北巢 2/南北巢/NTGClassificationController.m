@@ -21,6 +21,7 @@
 #import "NTGSearchController.h"
 #import "NTGMBProgressHUD.h"
 #import "NTGElderlyFinanceController.h"
+#import "NTGSearchPageController.h"
 
 /**
  * control - 分类控制器
@@ -51,17 +52,19 @@
 //    [self.navigationController setNavigationBarHidden:YES];
     self.docktable.delegateDock=self;
     self.rightTable.delegateRight = self;
+    self.rightTable.isThree = NO;
     [self initData];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:YES];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:YES];
-    //    [self.navigationController setNavigationBarHidden:NO animated:YES];
+//    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 }
 
 /** 网路访问 */
@@ -77,7 +80,7 @@
 
 - (IBAction)searchBtn:(id)sender {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"NTGSearch" bundle:nil];
-    NTGSearchController *searchController = [storyboard instantiateInitialViewController];
+    NTGSearchPageController *searchController = [storyboard instantiateViewControllerWithIdentifier:@"NTGSearchPage"];
     
     [self.navigationController pushViewController:searchController animated:YES];
 }
@@ -85,6 +88,15 @@
 #pragma  -make 代理
 -(void)clickDockindexPathRow:(NTGCategoryNavigation *)classificationModel index:(NSIndexPath *)index {
     self.rightTable.categoryNavs= classificationModel.children;
+
+    if (index.row == 2 || index.row == 3) {
+        self.rightTable.isThree = YES;
+        [self.rightTable reloadData];
+    }else{
+        self.rightTable.isThree = NO;
+    
+    }
+    self.rightTable.contentOffset = CGPointMake(0, 0);
     [self.rightTable reloadData];
     //图片重新载入
     self.classImg.image = [UIImage imageNamed:[NSString stringWithFormat:@"organization%ld",(long)index.row]];

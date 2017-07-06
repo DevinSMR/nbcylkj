@@ -1,5 +1,5 @@
 platform :ios, ‘7.0’
-
+target ‘南北巢’ do
 pod "AFNetworking", "~> 2.0"
 pod "MJExtension", "~> 2.5.14"
 pod "Masonry", "~> 0.6.3"
@@ -8,3 +8,5 @@ pod "MBProgressHUD", "~> 0.9.1"
 pod "Base64nl", "~> 1.2"
 pod "MJRefresh", "~> 3.1.0"
 pod "IQKeyboardManager", "~> 2.5.0"
+pod 'FMDB','~> 2.6.2'
+end

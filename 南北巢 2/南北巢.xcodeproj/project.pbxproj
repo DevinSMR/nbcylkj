@@ -59,14 +59,6 @@
 		25416C841C2A6A2400BC7BE0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 25416C831C2A6A2400BC7BE0 /* Reachability.m */; };
 		25416C861C2A6A7900BC7BE0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25416C851C2A6A7900BC7BE0 /* SystemConfiguration.framework */; };
 		25416C891C2AA52400BC7BE0 /* NTGDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 25416C881C2AA52400BC7BE0 /* NTGDetection.m */; };
-		2543DFD31F03418700F40DC0 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2543DFC41F03418700F40DC0 /* LICENSE.txt */; };
-		2543DFD41F03418700F40DC0 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 2543DFC51F03418700F40DC0 /* README.markdown */; };
-		2543DFD51F03418700F40DC0 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543DFC91F03418700F40DC0 /* FMDatabase.m */; };
-		2543DFD61F03418700F40DC0 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543DFCB1F03418700F40DC0 /* FMDatabaseAdditions.m */; };
-		2543DFD71F03418700F40DC0 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543DFCD1F03418700F40DC0 /* FMDatabasePool.m */; };
-		2543DFD81F03418700F40DC0 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543DFCF1F03418700F40DC0 /* FMDatabaseQueue.m */; };
-		2543DFD91F03418700F40DC0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543DFD21F03418700F40DC0 /* FMResultSet.m */; };
-		2543DFE01F034C2A00F40DC0 /* NTGSearchPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543DFDF1F034C2A00F40DC0 /* NTGSearchPageController.m */; };
 		254901761EE0FF6200052E34 /* NTGNestGuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 254901751EE0FF6200052E34 /* NTGNestGuideVC.m */; };
 		254AD11A1C337FF500EE0F43 /* NTGVerificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254AD1191C337FF500EE0F43 /* NTGVerificationController.m */; };
 		254AD11C1C33B58D00EE0F43 /* NTGLoginPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254AD11B1C33B58D00EE0F43 /* NTGLoginPassword.storyboard */; };
@@ -97,7 +89,6 @@
 		2550CF7F1C7EB27F004903F8 /* NTGCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550CF7D1C7EB27F004903F8 /* NTGCommentCell.m */; };
 		2550CF801C7EB27F004903F8 /* NTGCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2550CF7E1C7EB27F004903F8 /* NTGCommentCell.xib */; };
 		2550CF861C7F0131004903F8 /* NTGStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550CF851C7F0131004903F8 /* NTGStringUtils.m */; };
-		25526A6C1C7575FA00E113DE /* NTGSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25526A6B1C7575FA00E113DE /* NTGSearch.storyboard */; };
 		25526A711C758E9E00E113DE /* NTGSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25526A701C758E9E00E113DE /* NTGSearchController.m */; };
 		25526A741C759ABC00E113DE /* NTGInstitutionSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25526A731C759ABC00E113DE /* NTGInstitutionSearchController.m */; };
 		25526A771C759AE100E113DE /* NTGTravelSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25526A761C759AE100E113DE /* NTGTravelSearchController.m */; };
@@ -242,7 +233,6 @@
 		25A364071C7BF5E0008BFAF2 /* NTGIsInvoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A364061C7BF5E0008BFAF2 /* NTGIsInvoiceController.m */; };
 		25A3640A1C7C59EB008BFAF2 /* NTGTravelOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A364091C7C59EB008BFAF2 /* NTGTravelOrderController.m */; };
 		25A682BD1BD88A140075CA4E /* NTGDockTableVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A682BC1BD88A140075CA4E /* NTGDockTableVIew.m */; };
-		25A682C01BD88A380075CA4E /* NTGRightTableVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A682BF1BD88A380075CA4E /* NTGRightTableVIew.m */; };
 		25AB72361EF7C9D2008E099F /* NTGAgencyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AB72351EF7C9D2008E099F /* NTGAgencyLocation.m */; };
 		25AB72391EF7CAB7008E099F /* KCAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AB72381EF7CAB7008E099F /* KCAnnotation.m */; };
 		25AD25491BDE140C00114FA8 /* AgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25AD25481BDE140C00114FA8 /* AgeView.xib */; };
@@ -267,7 +257,6 @@
 		25B610B71CB363C600E3B298 /* NTGInsuranceDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B610B61CB363C600E3B298 /* NTGInsuranceDetail.storyboard */; };
 		25B610BA1CB3650200E3B298 /* NTGInsuranceDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B610B91CB3650200E3B298 /* NTGInsuranceDetailController.m */; };
 		25BCDD2C1C0D3F4000A67E1D /* NTGRecommend.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BCDD2A1C0D3F4000A67E1D /* NTGRecommend.m */; };
-		25BE5D521D0D111800A0583D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BE5D511D0D111800A0583D /* libPods.a */; };
 		25C065971C0C1D90003FB90F /* NTGProductContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C065961C0C1D90003FB90F /* NTGProductContainer.m */; };
 		25C0659A1C0C3356003FB90F /* NTGRecommendTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C065991C0C3356003FB90F /* NTGRecommendTableView.m */; };
 		25C57D891C1E521C00EAEF8D /* NTGInspirationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C57D881C1E521C00EAEF8D /* NTGInspirationController.m */; };
@@ -310,6 +299,21 @@
 		25DB915C1C2D1B0A00FD02BA /* NTGMyProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB915B1C2D1B0A00FD02BA /* NTGMyProfileController.m */; };
 		25DB91601C2D44C000FD02BA /* NTGMyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DB915F1C2D44C000FD02BA /* NTGMyProfile.storyboard */; };
 		25DB91631C2D459400FD02BA /* NTGMineHeadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB91621C2D459400FD02BA /* NTGMineHeadController.m */; };
+		25DD991E1F0DD26E0001144F /* NTGSectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD99161F0DD26E0001144F /* NTGSectionCell.m */; };
+		25DD991F1F0DD26E0001144F /* NTGSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DD99171F0DD26E0001144F /* NTGSectionCell.xib */; };
+		25DD99201F0DD26E0001144F /* NTGThirdClassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD99191F0DD26E0001144F /* NTGThirdClassCell.m */; };
+		25DD99211F0DD26E0001144F /* NTGThirdClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DD991A1F0DD26E0001144F /* NTGThirdClassCell.xib */; };
+		25DD99221F0DD26E0001144F /* NTGThirdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD991C1F0DD26E0001144F /* NTGThirdItem.m */; };
+		25DD99231F0DD26E0001144F /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DD991D1F0DD26E0001144F /* View.xib */; };
+		25DD99251F0DD2870001144F /* NTGRightTableVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD99241F0DD2870001144F /* NTGRightTableVIew.m */; };
+		25DD99271F0DD2A60001144F /* Classification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DD99261F0DD2A60001144F /* Classification.storyboard */; };
+		25DD99291F0DD7B80001144F /* NTGClassificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD99281F0DD7B80001144F /* NTGClassificationController.m */; };
+		25DD992F1F0DD8C90001144F /* NTGSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD992B1F0DD8C90001144F /* NTGSearchCell.m */; };
+		25DD99301F0DD8C90001144F /* NTGSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DD992C1F0DD8C90001144F /* NTGSearchCell.xib */; };
+		25DD99311F0DD8C90001144F /* NTGCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD992E1F0DD8C90001144F /* NTGCustomLayout.m */; };
+		25DD99341F0DD9040001144F /* NTGSearchPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD99331F0DD9040001144F /* NTGSearchPageController.m */; };
+		25DD99371F0DD9390001144F /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD99361F0DD9390001144F /* DBManager.m */; };
+		25DD99391F0DDCDF0001144F /* NTGSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DD99381F0DDCDF0001144F /* NTGSearch.storyboard */; };
 		25E8A0C91BDA2CFE00F81E8A /* LFCGzipUtillity.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E8A0C81BDA2CFE00F81E8A /* LFCGzipUtillity.m */; };
 		25E8A0CE1BDA318A00F81E8A /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E8A0CC1BDA315900F81E8A /* libz.1.2.5.tbd */; };
 		25E8A0D11BDA37CA00F81E8A /* NTGSendRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E8A0D01BDA37CA00F81E8A /* NTGSendRequest.m */; };
@@ -422,11 +426,10 @@
 		52C057441BCF8CCF00E23EE2 /* NTGBavBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C057431BCF8CCF00E23EE2 /* NTGBavBaseController.m */; };
 		52C0574C1BCFA03600E23EE2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C0574B1BCFA03600E23EE2 /* Home.storyboard */; };
 		52C057521BCFA12600E23EE2 /* NTGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C057511BCFA12600E23EE2 /* NTGHomeViewController.m */; };
-		52C0575A1BCFA37D00E23EE2 /* Classification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C057591BCFA37D00E23EE2 /* Classification.storyboard */; };
-		52C057601BCFA51800E23EE2 /* NTGClassificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C0575F1BCFA51800E23EE2 /* NTGClassificationController.m */; };
 		52C057671BCFA6C200E23EE2 /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C057661BCFA6C200E23EE2 /* Discovery.storyboard */; };
 		52C057741BCFAD2A00E23EE2 /* Shopping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C057731BCFAD2A00E23EE2 /* Shopping.storyboard */; };
 		52E3B85D1BDC80C400130A2A /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E3B85C1BDC80C400130A2A /* NSArray+Log.m */; };
+		9853C83B7006462E3D9BB787 /* libPods-南北巢.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EA8A7D77052D1E7957553B /* libPods-南北巢.a */; };
 		BA3B936E1D2604B2004039D7 /* NTGArticleListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3B936D1D2604B2004039D7 /* NTGArticleListCell.m */; };
 		BA5C2D601D2B8156002434C1 /* NTGArticleDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5C2D5F1D2B8156002434C1 /* NTGArticleDetailController.m */; };
 		BA915B5F1D2506E300A20F68 /* NTGCreatPhotoAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA915B5E1D2506E300A20F68 /* NTGCreatPhotoAlbumController.m */; };
@@ -450,6 +453,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF1F2504039116FD8B2205A /* Pods-南北巢.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-南北巢.release.xcconfig"; path = "Pods/Target Support Files/Pods-南北巢/Pods-南北巢.release.xcconfig"; sourceTree = "<group>"; };
 		2502C1ED1C9B9C4700F132E0 /* NTGFavoriteList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTGFavoriteList.xib; sourceTree = "<group>"; };
 		25046A3C1C7FF92D0083191E /* NTGMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGMBProgressHUD.h; sourceTree = "<group>"; };
 		25046A3D1C7FF92D0083191E /* NTGMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGMBProgressHUD.m; sourceTree = "<group>"; };
@@ -541,21 +545,6 @@
 		25416C851C2A6A7900BC7BE0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		25416C871C2AA52400BC7BE0 /* NTGDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGDetection.h; sourceTree = "<group>"; };
 		25416C881C2AA52400BC7BE0 /* NTGDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGDetection.m; sourceTree = "<group>"; };
-		2543DFC41F03418700F40DC0 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		2543DFC51F03418700F40DC0 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
-		2543DFC81F03418700F40DC0 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		2543DFC91F03418700F40DC0 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		2543DFCA1F03418700F40DC0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		2543DFCB1F03418700F40DC0 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		2543DFCC1F03418700F40DC0 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		2543DFCD1F03418700F40DC0 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		2543DFCE1F03418700F40DC0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		2543DFCF1F03418700F40DC0 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		2543DFD01F03418700F40DC0 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		2543DFD11F03418700F40DC0 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		2543DFD21F03418700F40DC0 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		2543DFDE1F034C2A00F40DC0 /* NTGSearchPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGSearchPageController.h; sourceTree = "<group>"; };
-		2543DFDF1F034C2A00F40DC0 /* NTGSearchPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGSearchPageController.m; sourceTree = "<group>"; };
 		254901741EE0FF6200052E34 /* NTGNestGuideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGNestGuideVC.h; sourceTree = "<group>"; };
 		254901751EE0FF6200052E34 /* NTGNestGuideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGNestGuideVC.m; sourceTree = "<group>"; };
 		254AD1181C337FF500EE0F43 /* NTGVerificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGVerificationController.h; sourceTree = "<group>"; };
@@ -611,7 +600,6 @@
 		2550CF7E1C7EB27F004903F8 /* NTGCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTGCommentCell.xib; sourceTree = "<group>"; };
 		2550CF841C7F0131004903F8 /* NTGStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGStringUtils.h; sourceTree = "<group>"; };
 		2550CF851C7F0131004903F8 /* NTGStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGStringUtils.m; sourceTree = "<group>"; };
-		25526A6B1C7575FA00E113DE /* NTGSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NTGSearch.storyboard; sourceTree = "<group>"; };
 		25526A6F1C758E9E00E113DE /* NTGSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGSearchController.h; sourceTree = "<group>"; };
 		25526A701C758E9E00E113DE /* NTGSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGSearchController.m; sourceTree = "<group>"; };
 		25526A721C759ABC00E113DE /* NTGInstitutionSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGInstitutionSearchController.h; sourceTree = "<group>"; };
@@ -856,7 +844,6 @@
 		25A682BB1BD88A140075CA4E /* NTGDockTableVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGDockTableVIew.h; sourceTree = "<group>"; };
 		25A682BC1BD88A140075CA4E /* NTGDockTableVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGDockTableVIew.m; sourceTree = "<group>"; };
 		25A682BE1BD88A380075CA4E /* NTGRightTableVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGRightTableVIew.h; sourceTree = "<group>"; };
-		25A682BF1BD88A380075CA4E /* NTGRightTableVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGRightTableVIew.m; sourceTree = "<group>"; };
 		25AB72341EF7C9D2008E099F /* NTGAgencyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGAgencyLocation.h; sourceTree = "<group>"; };
 		25AB72351EF7C9D2008E099F /* NTGAgencyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGAgencyLocation.m; sourceTree = "<group>"; };
 		25AB72371EF7CAB7008E099F /* KCAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAnnotation.h; sourceTree = "<group>"; };
@@ -958,6 +945,28 @@
 		25DB915F1C2D44C000FD02BA /* NTGMyProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NTGMyProfile.storyboard; sourceTree = "<group>"; };
 		25DB91611C2D459400FD02BA /* NTGMineHeadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGMineHeadController.h; sourceTree = "<group>"; };
 		25DB91621C2D459400FD02BA /* NTGMineHeadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGMineHeadController.m; sourceTree = "<group>"; };
+		25DD99151F0DD26E0001144F /* NTGSectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGSectionCell.h; sourceTree = "<group>"; };
+		25DD99161F0DD26E0001144F /* NTGSectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGSectionCell.m; sourceTree = "<group>"; };
+		25DD99171F0DD26E0001144F /* NTGSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTGSectionCell.xib; sourceTree = "<group>"; };
+		25DD99181F0DD26E0001144F /* NTGThirdClassCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGThirdClassCell.h; sourceTree = "<group>"; };
+		25DD99191F0DD26E0001144F /* NTGThirdClassCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGThirdClassCell.m; sourceTree = "<group>"; };
+		25DD991A1F0DD26E0001144F /* NTGThirdClassCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTGThirdClassCell.xib; sourceTree = "<group>"; };
+		25DD991B1F0DD26E0001144F /* NTGThirdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGThirdItem.h; sourceTree = "<group>"; };
+		25DD991C1F0DD26E0001144F /* NTGThirdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGThirdItem.m; sourceTree = "<group>"; };
+		25DD991D1F0DD26E0001144F /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		25DD99241F0DD2870001144F /* NTGRightTableVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGRightTableVIew.m; sourceTree = "<group>"; };
+		25DD99261F0DD2A60001144F /* Classification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Classification.storyboard; sourceTree = "<group>"; };
+		25DD99281F0DD7B80001144F /* NTGClassificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGClassificationController.m; sourceTree = "<group>"; };
+		25DD992A1F0DD8C90001144F /* NTGSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGSearchCell.h; sourceTree = "<group>"; };
+		25DD992B1F0DD8C90001144F /* NTGSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGSearchCell.m; sourceTree = "<group>"; };
+		25DD992C1F0DD8C90001144F /* NTGSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTGSearchCell.xib; sourceTree = "<group>"; };
+		25DD992D1F0DD8C90001144F /* NTGCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGCustomLayout.h; sourceTree = "<group>"; };
+		25DD992E1F0DD8C90001144F /* NTGCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGCustomLayout.m; sourceTree = "<group>"; };
+		25DD99321F0DD9040001144F /* NTGSearchPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGSearchPageController.h; sourceTree = "<group>"; };
+		25DD99331F0DD9040001144F /* NTGSearchPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGSearchPageController.m; sourceTree = "<group>"; };
+		25DD99351F0DD9390001144F /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		25DD99361F0DD9390001144F /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		25DD99381F0DDCDF0001144F /* NTGSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NTGSearch.storyboard; sourceTree = "<group>"; };
 		25E8A0C71BDA2CFE00F81E8A /* LFCGzipUtillity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtillity.h; sourceTree = "<group>"; };
 		25E8A0C81BDA2CFE00F81E8A /* LFCGzipUtillity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtillity.m; sourceTree = "<group>"; };
 		25E8A0CC1BDA315900F81E8A /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
@@ -1147,7 +1156,6 @@
 		25FCA7DA1C3E617F000F8508 /* NTGAreaPikerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTGAreaPikerView.xib; sourceTree = "<group>"; };
 		25FFE8AA1CE5C08400F4B436 /* NTGSelectSpecificationValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGSelectSpecificationValue.h; sourceTree = "<group>"; };
 		25FFE8AB1CE5C08400F4B436 /* NTGSelectSpecificationValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGSelectSpecificationValue.m; sourceTree = "<group>"; };
-		4BF23DDD91B157BE6825AB13 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		52047C501BCF36900028D841 /* 南北巢.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "南北巢.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52047C541BCF36900028D841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52047C621BCF36900028D841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -1162,14 +1170,12 @@
 		52C0574B1BCFA03600E23EE2 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		52C057501BCFA12600E23EE2 /* NTGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGHomeViewController.h; sourceTree = "<group>"; };
 		52C057511BCFA12600E23EE2 /* NTGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGHomeViewController.m; sourceTree = "<group>"; };
-		52C057591BCFA37D00E23EE2 /* Classification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Classification.storyboard; sourceTree = "<group>"; };
 		52C0575E1BCFA51800E23EE2 /* NTGClassificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGClassificationController.h; sourceTree = "<group>"; };
-		52C0575F1BCFA51800E23EE2 /* NTGClassificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGClassificationController.m; sourceTree = "<group>"; };
 		52C057661BCFA6C200E23EE2 /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
 		52C057731BCFAD2A00E23EE2 /* Shopping.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Shopping.storyboard; sourceTree = "<group>"; };
 		52E3B85B1BDC80C400130A2A /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		52E3B85C1BDC80C400130A2A /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
-		8D6FB386B0746637BD5D3F2C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8EB427AE321A1DF5D6EEAA59 /* Pods-南北巢.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-南北巢.debug.xcconfig"; path = "Pods/Target Support Files/Pods-南北巢/Pods-南北巢.debug.xcconfig"; sourceTree = "<group>"; };
 		BA3B936C1D2604B2004039D7 /* NTGArticleListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGArticleListCell.h; sourceTree = "<group>"; };
 		BA3B936D1D2604B2004039D7 /* NTGArticleListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGArticleListCell.m; sourceTree = "<group>"; };
 		BA5C2D5E1D2B8156002434C1 /* NTGArticleDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGArticleDetailController.h; sourceTree = "<group>"; };
@@ -1177,6 +1183,7 @@
 		BA5C2D621D2B9A6B002434C1 /* HeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
 		BA915B5D1D2506E300A20F68 /* NTGCreatPhotoAlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGCreatPhotoAlbumController.h; sourceTree = "<group>"; };
 		BA915B5E1D2506E300A20F68 /* NTGCreatPhotoAlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGCreatPhotoAlbumController.m; sourceTree = "<group>"; };
+		F6EA8A7D77052D1E7957553B /* libPods-南北巢.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-南北巢.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1191,7 +1198,6 @@
 				25CFCB571EF0E47C00BBB2D1 /* libstdc++.tbd in Frameworks */,
 				256E2DA61C4F1EFD001FD315 /* libz.tbd in Frameworks */,
 				25CFCB551EF0E42E00BBB2D1 /* libicucore.tbd in Frameworks */,
-				25BE5D521D0D111800A0583D /* libPods.a in Frameworks */,
 				25C6145A1D0D3F0F002539EA /* AlipaySDK.framework in Frameworks */,
 				25CFCB491EF0E37900BBB2D1 /* TencentOpenAPI.framework in Frameworks */,
 				256E2DB61C4F1F75001FD315 /* CoreMotion.framework in Frameworks */,
@@ -1218,6 +1224,7 @@
 				25CFCB261EF0E37900BBB2D1 /* ShareSDKExtension.framework in Frameworks */,
 				25CFCB221EF0E37900BBB2D1 /* MOBFoundation.framework in Frameworks */,
 				25E8A0CE1BDA318A00F81E8A /* libz.1.2.5.tbd in Frameworks */,
+				9853C83B7006462E3D9BB787 /* libPods-南北巢.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1238,15 +1245,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06053B5DFB05183C30E6A3A6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4BF23DDD91B157BE6825AB13 /* Pods.debug.xcconfig */,
-				8D6FB386B0746637BD5D3F2C /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		253821C31BEC7253006DAFEB /* CarouslView（头部广告视图） */ = {
 			isa = PBXGroup;
 			children = (
@@ -1447,42 +1445,6 @@
 				25D515E91EA748AD000E3E25 /* NTGEditPhotoAlbumViewController.m */,
 			);
 			name = "我的相册";
-			sourceTree = "<group>";
-		};
-		2543DFC31F03418700F40DC0 /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				2543DFC41F03418700F40DC0 /* LICENSE.txt */,
-				2543DFC51F03418700F40DC0 /* README.markdown */,
-				2543DFC61F03418700F40DC0 /* src */,
-			);
-			path = FMDB;
-			sourceTree = "<group>";
-		};
-		2543DFC61F03418700F40DC0 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				2543DFC71F03418700F40DC0 /* fmdb */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		2543DFC71F03418700F40DC0 /* fmdb */ = {
-			isa = PBXGroup;
-			children = (
-				2543DFC81F03418700F40DC0 /* FMDatabase.h */,
-				2543DFC91F03418700F40DC0 /* FMDatabase.m */,
-				2543DFCA1F03418700F40DC0 /* FMDatabaseAdditions.h */,
-				2543DFCB1F03418700F40DC0 /* FMDatabaseAdditions.m */,
-				2543DFCC1F03418700F40DC0 /* FMDatabasePool.h */,
-				2543DFCD1F03418700F40DC0 /* FMDatabasePool.m */,
-				2543DFCE1F03418700F40DC0 /* FMDatabaseQueue.h */,
-				2543DFCF1F03418700F40DC0 /* FMDatabaseQueue.m */,
-				2543DFD01F03418700F40DC0 /* FMDB.h */,
-				2543DFD11F03418700F40DC0 /* FMResultSet.h */,
-				2543DFD21F03418700F40DC0 /* FMResultSet.m */,
-			);
-			path = fmdb;
 			sourceTree = "<group>";
 		};
 		254B1DD01BFDCD2A001729F6 /* Articles(老年用品) */ = {
@@ -1722,6 +1684,8 @@
 				253F02D51C295047005B6122 /* NTGBusinessResult.h */,
 				253F02D61C295047005B6122 /* NTGBusinessResult.m */,
 				258B05241C83F8D200926921 /* NTGConstant.h */,
+				25DD99351F0DD9390001144F /* DBManager.h */,
+				25DD99361F0DD9390001144F /* DBManager.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -1881,8 +1845,8 @@
 				25526A761C759AE100E113DE /* NTGTravelSearchController.m */,
 				25526A781C759B0400E113DE /* NTGProSearchController.h */,
 				25526A791C759B0400E113DE /* NTGProSearchController.m */,
-				2543DFDE1F034C2A00F40DC0 /* NTGSearchPageController.h */,
-				2543DFDF1F034C2A00F40DC0 /* NTGSearchPageController.m */,
+				25DD99321F0DD9040001144F /* NTGSearchPageController.h */,
+				25DD99331F0DD9040001144F /* NTGSearchPageController.m */,
 			);
 			name = "Home(首页)";
 			sourceTree = "<group>";
@@ -2136,6 +2100,7 @@
 				259682BC1C39FF6100010153 /* MobileCoreServices.framework */,
 				25416C851C2A6A7900BC7BE0 /* SystemConfiguration.framework */,
 				25E8A0CC1BDA315900F81E8A /* libz.1.2.5.tbd */,
+				F6EA8A7D77052D1E7957553B /* libPods-南北巢.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2143,14 +2108,13 @@
 		52047C471BCF36900028D841 = {
 			isa = PBXGroup;
 			children = (
-				2543DFC31F03418700F40DC0 /* FMDB */,
 				2574A1E31D07EEAE00538287 /* AlipaySDK.bundle */,
 				25CFCAD21EF0E37900BBB2D1 /* SDK */,
 				52047C521BCF36900028D841 /* 南北巢 */,
 				52047C6C1BCF36900028D841 /* 南北巢Tests */,
 				52047C511BCF36900028D841 /* Products */,
-				06053B5DFB05183C30E6A3A6 /* Pods */,
 				282B3C37CFF1D9B98F4BFC4B /* Frameworks */,
+				BEC904B064EA585D7DF31226 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2251,13 +2215,18 @@
 			isa = PBXGroup;
 			children = (
 				52C0574B1BCFA03600E23EE2 /* Home.storyboard */,
-				25526A6B1C7575FA00E113DE /* NTGSearch.storyboard */,
+				25DD99381F0DDCDF0001144F /* NTGSearch.storyboard */,
 				2565C06D1CC71C4F00565504 /* HeadView.h */,
 				2565C06E1CC71C4F00565504 /* HeadView.m */,
 				25046A3F1C80296C0083191E /* NTGAdPosition.storyboard */,
 				2565C0701CC76C5600565504 /* InstitutionSearch.storyboard */,
 				2565C0721CC76CD900565504 /* TravelSearch.storyboard */,
 				2565C0741CC76D0200565504 /* ProSearch.storyboard */,
+				25DD992A1F0DD8C90001144F /* NTGSearchCell.h */,
+				25DD992B1F0DD8C90001144F /* NTGSearchCell.m */,
+				25DD992C1F0DD8C90001144F /* NTGSearchCell.xib */,
+				25DD992D1F0DD8C90001144F /* NTGCustomLayout.h */,
+				25DD992E1F0DD8C90001144F /* NTGCustomLayout.m */,
 				2555F8C41BF5770900E014E4 /* Common（通用） */,
 				253821C31BEC7253006DAFEB /* CarouslView（头部广告视图） */,
 				253821C41BEC727D006DAFEB /* FeaturedView(特色养老) */,
@@ -2312,7 +2281,7 @@
 			isa = PBXGroup;
 			children = (
 				52C0575E1BCFA51800E23EE2 /* NTGClassificationController.h */,
-				52C0575F1BCFA51800E23EE2 /* NTGClassificationController.m */,
+				25DD99281F0DD7B80001144F /* NTGClassificationController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -2320,7 +2289,7 @@
 		52C057571BCFA21800E23EE2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				52C057591BCFA37D00E23EE2 /* Classification.storyboard */,
+				25DD99261F0DD2A60001144F /* Classification.storyboard */,
 				25887F131BD77FA000D65766 /* NTGSubCell.xib */,
 				25887F151BD7819300D65766 /* NTGSubCell.h */,
 				25887F161BD7819300D65766 /* NTGSubCell.m */,
@@ -2329,7 +2298,16 @@
 				25A682BB1BD88A140075CA4E /* NTGDockTableVIew.h */,
 				25A682BC1BD88A140075CA4E /* NTGDockTableVIew.m */,
 				25A682BE1BD88A380075CA4E /* NTGRightTableVIew.h */,
-				25A682BF1BD88A380075CA4E /* NTGRightTableVIew.m */,
+				25DD99241F0DD2870001144F /* NTGRightTableVIew.m */,
+				25DD99151F0DD26E0001144F /* NTGSectionCell.h */,
+				25DD99161F0DD26E0001144F /* NTGSectionCell.m */,
+				25DD99171F0DD26E0001144F /* NTGSectionCell.xib */,
+				25DD99181F0DD26E0001144F /* NTGThirdClassCell.h */,
+				25DD99191F0DD26E0001144F /* NTGThirdClassCell.m */,
+				25DD991A1F0DD26E0001144F /* NTGThirdClassCell.xib */,
+				25DD991B1F0DD26E0001144F /* NTGThirdItem.h */,
+				25DD991C1F0DD26E0001144F /* NTGThirdItem.m */,
+				25DD991D1F0DD26E0001144F /* View.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -2555,6 +2533,15 @@
 			path = Log;
 			sourceTree = "<group>";
 		};
+		BEC904B064EA585D7DF31226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EB427AE321A1DF5D6EEAA59 /* Pods-南北巢.debug.xcconfig */,
+				0AF1F2504039116FD8B2205A /* Pods-南北巢.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2562,12 +2549,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52047C7D1BCF36900028D841 /* Build configuration list for PBXNativeTarget "南北巢" */;
 			buildPhases = (
-				E1F25EDDBDFC0F47BA47444B /* Check Pods Manifest.lock */,
+				BCA20BD63B91EFEC0580346D /* [CP] Check Pods Manifest.lock */,
 				52047C4C1BCF36900028D841 /* Sources */,
 				52047C4D1BCF36900028D841 /* Frameworks */,
 				52047C4E1BCF36900028D841 /* Resources */,
-				3F97FA06AC6F12CA9877077B /* Embed Pods Frameworks */,
-				E22AD1670F5A6D3342826F95 /* Copy Pods Resources */,
+				90503CF50AB67C13A13662F5 /* [CP] Embed Pods Frameworks */,
+				7D60754839A3AD6BAEB83414 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2678,12 +2665,11 @@
 				259303731CE574F2007DFADD /* NTGSpecification.xib in Resources */,
 				2574A1E51D07EEAE00538287 /* AlipaySDK.bundle in Resources */,
 				2562F3B21C1A7455008A3912 /* NTGGuideList.storyboard in Resources */,
-				25526A6C1C7575FA00E113DE /* NTGSearch.storyboard in Resources */,
 				25CFCB4E1EF0E37900BBB2D1 /* WeiboSDK.bundle in Resources */,
+				25DD99271F0DD2A60001144F /* Classification.storyboard in Resources */,
 				254AD11C1C33B58D00EE0F43 /* NTGLoginPassword.storyboard in Resources */,
 				25F358DC1BFEE42E00253766 /* ElderlyEstate.storyboard in Resources */,
 				52047C631BCF36900028D841 /* LaunchScreen.storyboard in Resources */,
-				52C0575A1BCFA37D00E23EE2 /* Classification.storyboard in Resources */,
 				25F404BA1C157A7E00729E3E /* NTGRoomDetail.storyboard in Resources */,
 				25AD25491BDE140C00114FA8 /* AgeView.xib in Resources */,
 				255C6E561C7AE41B001F6093 /* NTGOrderCreate.storyboard in Resources */,
@@ -2710,9 +2696,9 @@
 				25AD25551BDE2D3E00114FA8 /* ArtidesView.xib in Resources */,
 				2565C0711CC76C5600565504 /* InstitutionSearch.storyboard in Resources */,
 				25B44FF21D38AE890065A9F0 /* NTGClassfiyCell.xib in Resources */,
+				25DD99391F0DDCDF0001144F /* NTGSearch.storyboard in Resources */,
 				25F743AE1C0844520011E959 /* NTGProductDetail.storyboard in Resources */,
 				253D3F201C19464D00FA241F /* NTGJunto.xib in Resources */,
-				2543DFD31F03418700F40DC0 /* LICENSE.txt in Resources */,
 				256728C81C3B9149004B3B2E /* NTGReceiver.storyboard in Resources */,
 				253E29AD1C45E3D300EA4FBD /* NTGOrderCell.xib in Resources */,
 				257983C21EA9B0C500BB2B4E /* NTGCommentReplyTopCell.xib in Resources */,
@@ -2722,17 +2708,20 @@
 				25F358DE1BFEE45E00253766 /* Insurance.storyboard in Resources */,
 				25CFCB501EF0E37900BBB2D1 /* README.txt in Resources */,
 				2562F3BB1C1AB5D5008A3912 /* NTGInspiration.storyboard in Resources */,
+				25DD99231F0DD26E0001144F /* View.xib in Resources */,
 				2575A6141C3D184B009F5A71 /* NTGChangeReceiver.storyboard in Resources */,
 				25394D841EA5BDE80075AE93 /* QBImagePickerController.strings in Resources */,
 				25B610B71CB363C600E3B298 /* NTGInsuranceDetail.storyboard in Resources */,
 				257623D31C27CE4A00D27840 /* NTGOrderInfo.storyboard in Resources */,
 				25F358E61BFEF29400253766 /* NTGInsuranceCell.xib in Resources */,
+				25DD991F1F0DD26E0001144F /* NTGSectionCell.xib in Resources */,
 				253EDC001D34EE5F003171EB /* NTGSelectArticleCell.xib in Resources */,
 				25CFCB4A1EF0E37900BBB2D1 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				2565C0751CC76D0200565504 /* ProSearch.storyboard in Resources */,
 				25B124891C32A7B400BA7A31 /* NTGVerification.storyboard in Resources */,
 				52C057671BCFA6C200E23EE2 /* Discovery.storyboard in Resources */,
 				25F358D11BFEC13900253766 /* NTGElderlyEstateCell.xib in Resources */,
+				25DD99301F0DD8C90001144F /* NTGSearchCell.xib in Resources */,
 				2502C1EF1C9B9C4700F132E0 /* NTGFavoriteList.xib in Resources */,
 				25046A401C80296C0083191E /* NTGAdPosition.storyboard in Resources */,
 				25F592AA1C0E99D80096942B /* NTGProductIntroduction.storyboard in Resources */,
@@ -2743,6 +2732,7 @@
 				2555F8C61BF577B500E014E4 /* PensionAgencyCell.xib in Resources */,
 				25CFCB521EF0E37900BBB2D1 /* ShareSDK.bundle in Resources */,
 				2565C0731CC76CD900565504 /* TravelSearch.storyboard in Resources */,
+				25DD99211F0DD26E0001144F /* NTGThirdClassCell.xib in Resources */,
 				258A9A901CE07E640064582E /* InstitutionCell.xib in Resources */,
 				25F592B41C0EF6650096942B /* NTGTravelDetail.storyboard in Resources */,
 				2562A82D1CC8DAD2002C0F11 /* NTGAttributeCell.xib in Resources */,
@@ -2782,49 +2772,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3F97FA06AC6F12CA9877077B /* Embed Pods Frameworks */ = {
+		7D60754839A3AD6BAEB83414 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-南北巢/Pods-南北巢-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E1F25EDDBDFC0F47BA47444B /* Check Pods Manifest.lock */ = {
+		90503CF50AB67C13A13662F5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-南北巢/Pods-南北巢-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E22AD1670F5A6D3342826F95 /* Copy Pods Resources */ = {
+		BCA20BD63B91EFEC0580346D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2847,10 +2837,10 @@
 				25A682BD1BD88A140075CA4E /* NTGDockTableVIew.m in Sources */,
 				253E29B41C46347900EA4FBD /* NTGOrderProductCell.m in Sources */,
 				25F90D621BFABCA0005FAB79 /* NTGOrderInfo.m in Sources */,
-				2543DFD71F03418700F40DC0 /* FMDatabasePool.m in Sources */,
 				2562A82C1CC8DAD2002C0F11 /* NTGAttributeCell.m in Sources */,
 				25EBF6C41C0724ED007DBD80 /* NTGCommentController.m in Sources */,
 				25F743AC1C0843420011E959 /* NTGProductDetailController.m in Sources */,
+				25DD992F1F0DD8C90001144F /* NTGSearchCell.m in Sources */,
 				251D63811EA84D7E00B04E5E /* NTGPublisAriticleVC.m in Sources */,
 				256949B71D11429F007A3E9E /* NTGTravelIntroView.m in Sources */,
 				2562F3C11C1ABC06008A3912 /* NTGHotCitypage.m in Sources */,
@@ -2868,6 +2858,7 @@
 				BA915B5F1D2506E300A20F68 /* NTGCreatPhotoAlbumController.m in Sources */,
 				2505290A1F0C990100677CDA /* NTGAgenyDetailStringCell.m in Sources */,
 				25B610BA1CB3650200E3B298 /* NTGInsuranceDetailController.m in Sources */,
+				25DD99201F0DD26E0001144F /* NTGThirdClassCell.m in Sources */,
 				25F90D4B1BFABCA0005FAB79 /* NTGCart.m in Sources */,
 				254B1DC81BFDA589001729F6 /* AppDelegate.m in Sources */,
 				25887F201BD7901C00D65766 /* NTGNetworkTool.m in Sources */,
@@ -2878,6 +2869,7 @@
 				25F90D711BFABCA0005FAB79 /* NTGSelectionGoods.m in Sources */,
 				256E189C1BE1AD82007CF34D /* RSA.m in Sources */,
 				25F90D4F1BFABCA0005FAB79 /* NTGErrorDesc.m in Sources */,
+				25DD991E1F0DD26E0001144F /* NTGSectionCell.m in Sources */,
 				25416C891C2AA52400BC7BE0 /* NTGDetection.m in Sources */,
 				2560A1F01C44E5FE0099E8AF /* HMScannerMaskView.m in Sources */,
 				25F90D5C1BFABCA0005FAB79 /* NTGMemberCommentReply.m in Sources */,
@@ -2895,6 +2887,7 @@
 				257E26AC1C448F42002E3AC8 /* NTGSupplier.m in Sources */,
 				2555F8E21BF5D71900E014E4 /* NTGClassCategoryController.m in Sources */,
 				25AFF95E1CB4F21E00497803 /* NTGElderlyFinanceTableView.m in Sources */,
+				25DD99251F0DD2870001144F /* NTGRightTableVIew.m in Sources */,
 				25F90D571BFABCA0005FAB79 /* NTGMember.m in Sources */,
 				25F90D681BFABCA0005FAB79 /* NTGProductCategory.m in Sources */,
 				2573C7CD1C97E3880076C956 /* NTGRegisterSubmitController.m in Sources */,
@@ -2917,7 +2910,6 @@
 				25F90D481BFABCA0005FAB79 /* NTGAttibuteOption.m in Sources */,
 				253699AB1C211165007D0641 /* NTGCartView.m in Sources */,
 				25748FB61CB75C5B0092ED4D /* NTGInsurance.m in Sources */,
-				2543DFE01F034C2A00F40DC0 /* NTGSearchPageController.m in Sources */,
 				25F90D5D1BFABCA0005FAB79 /* NTGMemberPhoto.m in Sources */,
 				254B1DD31BFDCD71001729F6 /* NTGProductController.m in Sources */,
 				2562F3B51C1A7793008A3912 /* NTGGuideCell.m in Sources */,
@@ -2936,6 +2928,7 @@
 				254AD11F1C33B74800EE0F43 /* NTGLoginPasswordController.m in Sources */,
 				BA3B936E1D2604B2004039D7 /* NTGArticleListCell.m in Sources */,
 				253F02D41C29321F005B6122 /* NTGCookies.m in Sources */,
+				25DD99341F0DD9040001144F /* NTGSearchPageController.m in Sources */,
 				25C065971C0C1D90003FB90F /* NTGProductContainer.m in Sources */,
 				25FC1CFA1C0FD34800BA58AB /* NTGTravelDetailController.m in Sources */,
 				2579E7991C1FB05D0018160A /* NTGShoppingCartController.m in Sources */,
@@ -2955,10 +2948,10 @@
 				25F90D6D1BFABCA0005FAB79 /* NTGReviewContent.m in Sources */,
 				256770251C47475200EF106A /* NTGOrderViewCell.m in Sources */,
 				25BCDD2C1C0D3F4000A67E1D /* NTGRecommend.m in Sources */,
-				2543DFD51F03418700F40DC0 /* FMDatabase.m in Sources */,
 				255BBF971C439FE100450D02 /* NTGSupplierCell.m in Sources */,
 				254C58561C2BD6A900BB5D0B /* NTGMyEvaluationController.m in Sources */,
 				25F90D441BFABCA0005FAB79 /* NTGAd.m in Sources */,
+				25DD99311F0DD8C90001144F /* NTGCustomLayout.m in Sources */,
 				2578B6991C44C34000045729 /* NTGSupplierDetailController.m in Sources */,
 				257983B81EA99C3700BB2B4E /* NTGCommentReplysController.m in Sources */,
 				25F90D6F1BFABCA0005FAB79 /* NTGScenicRegion.m in Sources */,
@@ -2969,13 +2962,13 @@
 				2574D4C91CE2D74B005262AF /* UIView+Shadow.m in Sources */,
 				254F6BF51C1175A800BA7DE7 /* NSDate+WQCalendarLogic.m in Sources */,
 				25F36B701EF9124A005769C7 /* UIView+WhenTappedBlocks.m in Sources */,
-				2543DFD91F03418700F40DC0 /* FMResultSet.m in Sources */,
 				25F404BD1C157AC800729E3E /* NTGRoomDetailController.m in Sources */,
 				25AFF9661CB4FB1600497803 /* NTGFinance.m in Sources */,
 				25D515E31EA6FD41000E3E25 /* NTGPhotoCollectionViewCell.m in Sources */,
 				2560A1ED1C44E5FE0099E8AF /* HMScanner.m in Sources */,
 				25F90D551BFABCA0005FAB79 /* NTGInsuranceContent.m in Sources */,
 				25FFE8AC1CE5C08400F4B436 /* NTGSelectSpecificationValue.m in Sources */,
+				25DD99371F0DD9390001144F /* DBManager.m in Sources */,
 				25F90D531BFABCA0005FAB79 /* NTGHotSalePosition.m in Sources */,
 				25F90D771BFABCA0005FAB79 /* NTGTripSummary.m in Sources */,
 				25394D851EA5BDE80075AE93 /* QBImagePickerGroupCell.m in Sources */,
@@ -2983,6 +2976,7 @@
 				2507F70D1CC62710006A7739 /* NTGIntegration.m in Sources */,
 				25046A3E1C7FF92D0083191E /* NTGMBProgressHUD.m in Sources */,
 				25F90D751BFABCA0005FAB79 /* NTGTags.m in Sources */,
+				25DD99221F0DD26E0001144F /* NTGThirdItem.m in Sources */,
 				251D63871EA8883F00B04E5E /* NTGArticleCommentsCell.m in Sources */,
 				25F90D601BFABCA0005FAB79 /* NTGOrder.m in Sources */,
 				257E26B51C4499DA002E3AC8 /* NTGAllianceRebate.m in Sources */,
@@ -3007,9 +3001,7 @@
 				254F6BF31C1175A800BA7DE7 /* CalendarViewController.m in Sources */,
 				2599D96F1C3A45EF000F4DCE /* UIImage+ScreenShot.m in Sources */,
 				25665B621C48E12E00B38050 /* NTGReviewSaveController.m in Sources */,
-				25A682C01BD88A380075CA4E /* NTGRightTableVIew.m in Sources */,
 				25F90D6A1BFABCA0005FAB79 /* NTGProductImage.m in Sources */,
-				2543DFD61F03418700F40DC0 /* FMDatabaseAdditions.m in Sources */,
 				254F6BF01C1175A800BA7DE7 /* CalendarLogic.m in Sources */,
 				256EDE741CED686700CB726E /* NTGSpecificationValueCell.m in Sources */,
 				257DC1501CBB92C1008E92A6 /* NTGGuideViewController.m in Sources */,
@@ -3052,8 +3044,8 @@
 				253E29AC1C45E3D300EA4FBD /* NTGOrderCell.m in Sources */,
 				252320781C4E1ADA0065834C /* NTGTravelOrderViewCell.m in Sources */,
 				25394D7D1EA5BDE80075AE93 /* QBAssetsCollectionFooterView.m in Sources */,
-				52C057601BCFA51800E23EE2 /* NTGClassificationController.m in Sources */,
 				25F90D461BFABCA0005FAB79 /* NTGAppVersion.m in Sources */,
+				25DD99291F0DD7B80001144F /* NTGClassificationController.m in Sources */,
 				52047C551BCF36900028D841 /* main.m in Sources */,
 				255BBF941C439D7600450D02 /* NTGSupplierListController.m in Sources */,
 				25AFF9621CB4F2D700497803 /* NTGFinanceCell.m in Sources */,
@@ -3102,8 +3094,6 @@
 				254B1DC51BFDA442001729F6 /* CocoaSecurity.m in Sources */,
 				25394D831EA5BDE80075AE93 /* QBImagePickerController.m in Sources */,
 				25F90D641BFABCA0005FAB79 /* NTGPage.m in Sources */,
-				2543DFD81F03418700F40DC0 /* FMDatabaseQueue.m in Sources */,
-				2543DFD41F03418700F40DC0 /* README.markdown in Sources */,
 				25F90D731BFABCA0005FAB79 /* NTGShipping.m in Sources */,
 				2562A8221CC8BB13002C0F11 /* NTGFilterCell.m in Sources */,
 				25F358C61BFEB3CD00253766 /* NTGProductTableView.m in Sources */,
@@ -3255,7 +3245,7 @@
 		};
 		52047C7E1BCF36900028D841 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BF23DDD91B157BE6825AB13 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 8EB427AE321A1DF5D6EEAA59 /* Pods-南北巢.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -3344,7 +3334,7 @@
 		};
 		52047C7F1BCF36900028D841 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D6FB386B0746637BD5D3F2C /* Pods.release.xcconfig */;
+			baseConfigurationReference = 0AF1F2504039116FD8B2205A /* Pods-南北巢.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

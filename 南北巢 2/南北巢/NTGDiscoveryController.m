@@ -46,7 +46,7 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:YES];
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+//    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
     
 }
 

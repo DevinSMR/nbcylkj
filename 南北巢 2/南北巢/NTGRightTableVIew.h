@@ -28,4 +28,5 @@
 
 /** 代理 */
 @property (nonatomic ,weak) id<NTGRightTavleViewDelegate>delegateRight;
+@property (nonatomic,assign) BOOL isThree;
 @end
