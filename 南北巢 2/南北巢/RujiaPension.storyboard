@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yB4-Aj-NRk">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Rujia Pension Controller-->
+        <scene sceneID="pZO-vt-Qaq">
+            <objects>
+                <viewController storyboardIdentifier="rujiaPensionController" id="yB4-Aj-NRk" customClass="NTGRujiaPensionController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wej-EL-LoQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="M5s-cr-iiP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ywj-kG-XTc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="27O-Eg-uHP">
+                                <rect key="frame" x="0.0" y="65" width="600" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAZ-8z-sSQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="119" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="老年公寓">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clickBtn:" destination="yB4-Aj-NRk" eventType="touchUpInside" id="dHc-uZ-lue"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XLs-Rr-Fzt">
+                                        <rect key="frame" x="119" y="10" width="1" height="30"/>
+                                        <color key="backgroundColor" red="0.90032782310000004" green="0.89908709499999995" blue="0.92075952539999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="aaB-kx-fiX"/>
+                                            <constraint firstAttribute="width" constant="1" id="gui-cJ-gUa"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" tag="200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUk-nt-WRb">
+                                        <rect key="frame" x="120" y="0.0" width="119" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="养老院">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clickBtn:" destination="yB4-Aj-NRk" eventType="touchUpInside" id="1JL-Bl-OSt"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gr1-8x-pZX">
+                                        <rect key="frame" x="239" y="10" width="1" height="30"/>
+                                        <color key="backgroundColor" red="0.90032782310000004" green="0.89908709499999995" blue="0.92075952539999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="9Qu-fb-GS5"/>
+                                            <constraint firstAttribute="width" constant="1" id="t2y-9L-fkp"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" tag="300" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CX8-Ch-OR6">
+                                        <rect key="frame" x="240" y="0.0" width="120" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="敬老院">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clickBtn:" destination="yB4-Aj-NRk" eventType="touchUpInside" id="8mA-Zx-Rfn"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wzg-jZ-eUH">
+                                        <rect key="frame" x="360" y="10" width="1" height="30"/>
+                                        <color key="backgroundColor" red="0.90032782310000004" green="0.89908709499999995" blue="0.92075952539999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="apo-jp-tOj"/>
+                                            <constraint firstAttribute="width" constant="1" id="hPe-Xg-qAC"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" tag="400" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iY5-n5-VKf">
+                                        <rect key="frame" x="361" y="0.0" width="119" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="托老所">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clickBtn:" destination="yB4-Aj-NRk" eventType="touchUpInside" id="0BZ-SA-4TE"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UZe-De-oSz">
+                                        <rect key="frame" x="480" y="10" width="1" height="30"/>
+                                        <color key="backgroundColor" red="0.90032782310000004" green="0.89908709499999995" blue="0.92075952539999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1" id="jXf-ul-fdf"/>
+                                            <constraint firstAttribute="height" constant="30" id="kAE-iv-Abq"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" tag="500" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ho-Is-6S1">
+                                        <rect key="frame" x="481" y="0.0" width="119" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="护理院">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clickBtn:" destination="yB4-Aj-NRk" eventType="touchUpInside" id="zet-a8-b1p"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="OUk-nt-WRb" firstAttribute="width" secondItem="HAZ-8z-sSQ" secondAttribute="width" id="0Mz-a5-KRG"/>
+                                    <constraint firstItem="CX8-Ch-OR6" firstAttribute="leading" secondItem="Gr1-8x-pZX" secondAttribute="trailing" id="1D0-6b-7EY"/>
+                                    <constraint firstAttribute="bottom" secondItem="HAZ-8z-sSQ" secondAttribute="bottom" id="2ny-Ao-gBy"/>
+                                    <constraint firstItem="iY5-n5-VKf" firstAttribute="height" secondItem="HAZ-8z-sSQ" secondAttribute="height" id="3Ji-Sy-cZL"/>
+                                    <constraint firstItem="iY5-n5-VKf" firstAttribute="top" secondItem="27O-Eg-uHP" secondAttribute="top" id="3gC-PB-Gq1"/>
+                                    <constraint firstItem="UZe-De-oSz" firstAttribute="top" secondItem="27O-Eg-uHP" secondAttribute="top" constant="10" id="4pb-8f-HGA"/>
+                                    <constraint firstAttribute="bottom" secondItem="CX8-Ch-OR6" secondAttribute="bottom" id="53o-pz-s1e"/>
+                                    <constraint firstItem="CX8-Ch-OR6" firstAttribute="top" secondItem="27O-Eg-uHP" secondAttribute="top" id="5oq-mm-b91"/>
+                                    <constraint firstItem="XLs-Rr-Fzt" firstAttribute="top" secondItem="27O-Eg-uHP" secondAttribute="top" constant="10" id="98o-cg-9RY"/>
+                                    <constraint firstAttribute="height" constant="50" id="9tQ-u5-Ddm"/>
+                                    <constraint firstItem="HAZ-8z-sSQ" firstAttribute="leading" secondItem="27O-Eg-uHP" secondAttribute="leading" id="AWy-r0-nN2"/>
+                                    <constraint firstItem="iY5-n5-VKf" firstAttribute="leading" secondItem="Wzg-jZ-eUH" secondAttribute="trailing" id="B2o-Sj-kHS"/>
+                                    <constraint firstItem="OUk-nt-WRb" firstAttribute="top" secondItem="27O-Eg-uHP" secondAttribute="top" id="DZ3-wi-tJf"/>
+                                    <constraint firstItem="9ho-Is-6S1" firstAttribute="height" secondItem="HAZ-8z-sSQ" secondAttribute="height" id="HcA-CV-kFJ"/>
+                                    <constraint firstItem="Wzg-jZ-eUH" firstAttribute="top" secondItem="27O-Eg-uHP" secondAttribute="top" constant="10" id="Hjf-cJ-53Q"/>
+                                    <constraint firstItem="9ho-Is-6S1" firstAttribute="width" secondItem="HAZ-8z-sSQ" secondAttribute="width" id="IId-kF-Ynv"/>
+                                    <constraint firstItem="Gr1-8x-pZX" firstAttribute="leading" secondItem="OUk-nt-WRb" secondAttribute="trailing" id="Iqv-Df-frz"/>
+                                    <constraint firstItem="9ho-Is-6S1" firstAttribute="top" secondItem="27O-Eg-uHP" secondAttribute="top" id="Isv-Bo-e22"/>
+                                    <constraint firstItem="CX8-Ch-OR6" firstAttribute="height" secondItem="HAZ-8z-sSQ" secondAttribute="height" id="LU4-ci-OxK"/>
+                                    <constraint firstAttribute="bottom" secondItem="UZe-De-oSz" secondAttribute="bottom" constant="10" id="M5v-yr-1m3"/>
+                                    <constraint firstItem="XLs-Rr-Fzt" firstAttribute="leading" secondItem="HAZ-8z-sSQ" secondAttribute="trailing" id="Mo5-De-Pbo"/>
+                                    <constraint firstItem="Wzg-jZ-eUH" firstAttribute="leading" secondItem="CX8-Ch-OR6" secondAttribute="trailing" id="QhY-QB-Sty"/>
+                                    <constraint firstItem="Gr1-8x-pZX" firstAttribute="top" secondItem="27O-Eg-uHP" secondAttribute="top" constant="10" id="Riv-b6-8qz"/>
+                                    <constraint firstAttribute="bottom" secondItem="OUk-nt-WRb" secondAttribute="bottom" id="T0A-iQ-VAI"/>
+                                    <constraint firstItem="9ho-Is-6S1" firstAttribute="leading" secondItem="UZe-De-oSz" secondAttribute="trailing" id="U8P-s6-a6H"/>
+                                    <constraint firstItem="UZe-De-oSz" firstAttribute="leading" secondItem="iY5-n5-VKf" secondAttribute="trailing" id="a7J-Nf-IrC"/>
+                                    <constraint firstAttribute="bottom" secondItem="iY5-n5-VKf" secondAttribute="bottom" id="aPw-cH-g8F"/>
+                                    <constraint firstItem="CX8-Ch-OR6" firstAttribute="width" secondItem="HAZ-8z-sSQ" secondAttribute="width" id="aQw-Up-oRh"/>
+                                    <constraint firstItem="OUk-nt-WRb" firstAttribute="height" secondItem="HAZ-8z-sSQ" secondAttribute="height" id="cI9-Do-sCD"/>
+                                    <constraint firstAttribute="trailing" secondItem="9ho-Is-6S1" secondAttribute="trailing" id="fMN-C3-9iZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="9ho-Is-6S1" secondAttribute="bottom" id="gJu-Tq-zdg"/>
+                                    <constraint firstItem="OUk-nt-WRb" firstAttribute="leading" secondItem="XLs-Rr-Fzt" secondAttribute="trailing" id="hiQ-FH-HeD"/>
+                                    <constraint firstAttribute="bottom" secondItem="XLs-Rr-Fzt" secondAttribute="bottom" constant="10" id="nUh-Mf-yho"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wzg-jZ-eUH" secondAttribute="bottom" constant="10" id="pDu-Yn-345"/>
+                                    <constraint firstItem="HAZ-8z-sSQ" firstAttribute="top" secondItem="27O-Eg-uHP" secondAttribute="top" id="rhU-m5-oj3"/>
+                                    <constraint firstItem="iY5-n5-VKf" firstAttribute="width" secondItem="HAZ-8z-sSQ" secondAttribute="width" id="siU-C7-Qc5"/>
+                                    <constraint firstAttribute="bottom" secondItem="Gr1-8x-pZX" secondAttribute="bottom" constant="10" id="wBw-cc-Vng"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0J-Ff-JMx">
+                                <rect key="frame" x="0.0" y="115" width="600" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热门推荐" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rhp-UE-XHR">
+                                        <rect key="frame" x="10" y="18" width="60" height="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93193051839999996" green="0.93193051839999996" blue="0.93193051839999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Rhp-UE-XHR" firstAttribute="leading" secondItem="f0J-Ff-JMx" secondAttribute="leading" constant="10" id="IzS-wp-TLc"/>
+                                    <constraint firstItem="Rhp-UE-XHR" firstAttribute="top" secondItem="f0J-Ff-JMx" secondAttribute="top" constant="18" id="fSS-pW-KFT"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rhp-UE-XHR" secondAttribute="bottom" constant="8" id="nqz-1w-7lx"/>
+                                    <constraint firstAttribute="height" constant="45" id="vsF-Qn-fgH"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QEA-FJ-tba" customClass="NTGPensionAgencyTableView">
+                                <rect key="frame" x="0.0" y="160" width="600" height="440"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QEA-FJ-tba" firstAttribute="top" secondItem="f0J-Ff-JMx" secondAttribute="bottom" id="O3H-Vx-k3x"/>
+                            <constraint firstItem="f0J-Ff-JMx" firstAttribute="top" secondItem="27O-Eg-uHP" secondAttribute="bottom" id="Tnn-kj-huZ"/>
+                            <constraint firstItem="QEA-FJ-tba" firstAttribute="leading" secondItem="ywj-kG-XTc" secondAttribute="leading" id="WKO-Ke-MXN"/>
+                            <constraint firstItem="27O-Eg-uHP" firstAttribute="leading" secondItem="ywj-kG-XTc" secondAttribute="leading" id="c4N-dx-t53"/>
+                            <constraint firstItem="f0J-Ff-JMx" firstAttribute="leading" secondItem="ywj-kG-XTc" secondAttribute="leading" id="i45-qx-OSe"/>
+                            <constraint firstItem="27O-Eg-uHP" firstAttribute="top" secondItem="ywj-kG-XTc" secondAttribute="top" constant="65" id="jGS-Y3-9WX"/>
+                            <constraint firstAttribute="trailing" secondItem="27O-Eg-uHP" secondAttribute="trailing" id="qgV-3D-nmo"/>
+                            <constraint firstItem="M5s-cr-iiP" firstAttribute="top" secondItem="QEA-FJ-tba" secondAttribute="bottom" id="voL-YY-RRz"/>
+                            <constraint firstAttribute="trailing" secondItem="f0J-Ff-JMx" secondAttribute="trailing" id="wFQ-De-Tkz"/>
+                            <constraint firstAttribute="trailing" secondItem="QEA-FJ-tba" secondAttribute="trailing" id="xLO-vB-WVQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fifthBtn" destination="9ho-Is-6S1" id="pGP-1Q-9eF"/>
+                        <outlet property="firstBtn" destination="HAZ-8z-sSQ" id="EOp-Br-WAM"/>
+                        <outlet property="fourthBtn" destination="iY5-n5-VKf" id="UEZ-dL-Lvl"/>
+                        <outlet property="pensionAgencyTableView" destination="QEA-FJ-tba" id="URX-an-2Mp"/>
+                        <outlet property="secondBtn" destination="OUk-nt-WRb" id="41r-8v-tCg"/>
+                        <outlet property="thirdBtn" destination="CX8-Ch-OR6" id="6Pq-TQ-Vvs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dBV-79-qnD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121" y="387"/>
+        </scene>
+    </scenes>
+</document>

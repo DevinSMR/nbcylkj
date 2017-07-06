@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="D07-Dv-7PT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Nan Bei Pension Controller-->
+        <scene sceneID="fyB-PB-15f">
+            <objects>
+                <viewController storyboardIdentifier="nanBeiPensionController" id="D07-Dv-7PT" customClass="NTGNanBeiPensionController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mvz-nC-bWM"/>
+                        <viewControllerLayoutGuide type="bottom" id="ktg-vA-fhu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GEm-EI-wvD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ivy-Cy-imG">
+                                <rect key="frame" x="0.0" y="65" width="375" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热门城市" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJe-j3-q1Y">
+                                        <rect key="frame" x="15" y="18" width="61.5" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93193051839999996" green="0.93193051839999996" blue="0.93193051839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="OJe-j3-q1Y" firstAttribute="leading" secondItem="Ivy-Cy-imG" secondAttribute="leading" constant="15" id="2DF-Vj-z2w"/>
+                                    <constraint firstAttribute="height" constant="45" id="TZR-W8-zLT"/>
+                                    <constraint firstItem="OJe-j3-q1Y" firstAttribute="top" secondItem="Ivy-Cy-imG" secondAttribute="top" constant="18" id="cOu-p8-X9i"/>
+                                    <constraint firstItem="OJe-j3-q1Y" firstAttribute="centerY" secondItem="Ivy-Cy-imG" secondAttribute="centerY" id="q3W-UX-vmG"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="q3W-UX-vmG"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kkx-4N-uti">
+                                <rect key="frame" x="0.0" y="110" width="375" height="71"/>
+                                <color key="backgroundColor" red="0.93193051839999996" green="0.93193051839999996" blue="0.93193051839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="Rmb-x4-VkF"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nCH-Sf-N0r">
+                                <rect key="frame" x="0.0" y="181" width="375" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热门推荐" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjb-DS-uL2">
+                                        <rect key="frame" x="15" y="18" width="61.5" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUr-Vx-zbs">
+                                        <rect key="frame" x="302" y="8" width="58" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="查看全部">
+                                            <color key="titleColor" red="1" green="0.46515934980000001" blue="0.1433095455" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="checkMore:" destination="D07-Dv-7PT" eventType="touchUpInside" id="EpO-IF-wQh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93193051839999996" green="0.93193051839999996" blue="0.93193051839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Wjb-DS-uL2" firstAttribute="top" secondItem="nCH-Sf-N0r" secondAttribute="top" constant="18" id="2RV-6y-XQP"/>
+                                    <constraint firstAttribute="height" constant="45" id="BaV-H0-r4x"/>
+                                    <constraint firstItem="Wjb-DS-uL2" firstAttribute="leading" secondItem="nCH-Sf-N0r" secondAttribute="leading" constant="15" id="GrW-Do-Gsl"/>
+                                    <constraint firstItem="NUr-Vx-zbs" firstAttribute="centerY" secondItem="nCH-Sf-N0r" secondAttribute="centerY" id="MWC-X2-6Ek"/>
+                                    <constraint firstItem="Wjb-DS-uL2" firstAttribute="centerY" secondItem="nCH-Sf-N0r" secondAttribute="centerY" id="OQr-cE-BVM"/>
+                                    <constraint firstAttribute="trailing" secondItem="NUr-Vx-zbs" secondAttribute="trailing" constant="15" id="Q6a-3P-eXM"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="OQr-cE-BVM"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="104" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XvO-WC-yty" customClass="NTGPensionAgencyTableView">
+                                <rect key="frame" x="0.0" y="226" width="375" height="441"/>
+                                <color key="backgroundColor" red="0.93915062260000004" green="0.94635544459999998" blue="0.96796991050000003" alpha="0.73999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.93915062260000004" green="0.94635544459999998" blue="0.96796991050000003" alpha="0.73999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ivy-Cy-imG" secondAttribute="trailing" id="0kO-Jm-B7C"/>
+                            <constraint firstItem="XvO-WC-yty" firstAttribute="leading" secondItem="GEm-EI-wvD" secondAttribute="leading" id="5AS-GY-0Sb"/>
+                            <constraint firstItem="kkx-4N-uti" firstAttribute="leading" secondItem="GEm-EI-wvD" secondAttribute="leading" id="73u-dU-SAW"/>
+                            <constraint firstItem="XvO-WC-yty" firstAttribute="top" secondItem="nCH-Sf-N0r" secondAttribute="bottom" id="7n4-gK-5Hb"/>
+                            <constraint firstItem="nCH-Sf-N0r" firstAttribute="top" secondItem="kkx-4N-uti" secondAttribute="bottom" id="Or7-WI-H9u"/>
+                            <constraint firstItem="kkx-4N-uti" firstAttribute="top" secondItem="Ivy-Cy-imG" secondAttribute="bottom" id="Sc8-bE-MgA"/>
+                            <constraint firstAttribute="trailing" secondItem="nCH-Sf-N0r" secondAttribute="trailing" id="dd6-4N-Act"/>
+                            <constraint firstItem="Ivy-Cy-imG" firstAttribute="top" secondItem="GEm-EI-wvD" secondAttribute="top" constant="65" id="fIn-wY-xnd"/>
+                            <constraint firstItem="nCH-Sf-N0r" firstAttribute="leading" secondItem="GEm-EI-wvD" secondAttribute="leading" id="fsV-L6-cTX"/>
+                            <constraint firstItem="ktg-vA-fhu" firstAttribute="top" secondItem="XvO-WC-yty" secondAttribute="bottom" id="gb1-Zs-oKI"/>
+                            <constraint firstAttribute="bottom" secondItem="XvO-WC-yty" secondAttribute="bottom" id="h76-ea-ir1"/>
+                            <constraint firstAttribute="trailing" secondItem="XvO-WC-yty" secondAttribute="trailing" id="m4n-Na-uVz"/>
+                            <constraint firstAttribute="trailing" secondItem="kkx-4N-uti" secondAttribute="trailing" id="uZE-qm-QyR"/>
+                            <constraint firstItem="Ivy-Cy-imG" firstAttribute="leading" secondItem="GEm-EI-wvD" secondAttribute="leading" id="was-1G-C9D"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="gb1-Zs-oKI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="cityView" destination="kkx-4N-uti" id="YJI-lb-3kF"/>
+                        <outlet property="cityViewH" destination="Rmb-x4-VkF" id="BKC-DY-w3y"/>
+                        <outlet property="pensionAgencyTableView" destination="XvO-WC-yty" id="HWW-Du-uOx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0mP-xs-10Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="466" y="436"/>
+        </scene>
+    </scenes>
+</document>

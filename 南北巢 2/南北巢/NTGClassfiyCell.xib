@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="classfiyCell" rowHeight="-37" id="KGk-i7-Jjw" customClass="NTGClassfiyCell">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="359" height="34.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNt-ec-BXA">
+                        <rect key="frame" x="5" y="5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="qsO-KN-gJj"/>
+                            <constraint firstAttribute="height" constant="25" id="xMn-5z-Nwx"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="ic_no_selected"/>
+                        <state key="selected" image="attention_hover"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkr-sl-Elr">
+                        <rect key="frame" x="40" y="5" width="304" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="gfi-OV-5gw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="hkr-sl-Elr" secondAttribute="trailing" constant="15" id="67d-ov-ydF"/>
+                    <constraint firstItem="xNt-ec-BXA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="EOL-a7-Z6s"/>
+                    <constraint firstItem="xNt-ec-BXA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="JwG-FC-5Gr"/>
+                    <constraint firstItem="hkr-sl-Elr" firstAttribute="leading" secondItem="xNt-ec-BXA" secondAttribute="trailing" constant="10" id="K2N-JE-vLL"/>
+                    <constraint firstItem="hkr-sl-Elr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="f7N-H1-tv0"/>
+                    <constraint firstAttribute="bottom" secondItem="xNt-ec-BXA" secondAttribute="bottom" constant="5" id="nFQ-lW-sx9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="hkr-sl-Elr" id="kys-HT-zxs"/>
+                <outlet property="selectBtn" destination="xNt-ec-BXA" id="oox-BO-mbb"/>
+            </connections>
+            <point key="canvasLocation" x="639.5" y="482.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="attention_hover" width="25" height="25"/>
+        <image name="ic_no_selected" width="25" height="25"/>
+    </resources>
+</document>

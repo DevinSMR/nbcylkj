@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fkS-2d-Pr2" customClass="NTGDatepickerView">
+            <rect key="frame" x="0.0" y="0.0" width="550" height="239"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uch-M2-ta4">
+                    <rect key="frame" x="0.0" y="0.0" width="550" height="45"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="出生日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOJ-4u-XbW">
+                            <rect key="frame" x="241" y="12" width="68" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOR-7T-Aa3">
+                            <rect key="frame" x="510" y="8" width="30" height="30"/>
+                            <state key="normal" title="完成">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.97254901959999995" green="0.43529411759999997" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="fOJ-4u-XbW" firstAttribute="centerY" secondItem="uch-M2-ta4" secondAttribute="centerY" id="4ka-n8-zsZ"/>
+                        <constraint firstAttribute="trailing" secondItem="iOR-7T-Aa3" secondAttribute="trailing" constant="10" id="Hhm-le-1YY"/>
+                        <constraint firstAttribute="height" constant="45" id="QYm-s2-D1I"/>
+                        <constraint firstItem="fOJ-4u-XbW" firstAttribute="centerX" secondItem="uch-M2-ta4" secondAttribute="centerX" id="Ryw-cM-HXa"/>
+                        <constraint firstItem="iOR-7T-Aa3" firstAttribute="centerY" secondItem="fOJ-4u-XbW" secondAttribute="centerY" id="o9S-sx-oQj"/>
+                    </constraints>
+                </view>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ur2-nc-1FA">
+                    <rect key="frame" x="0.0" y="45" width="550" height="194"/>
+                    <date key="date" timeIntervalSinceReferenceDate="473073074.01318997">
+                        <!--2015-12-29 09:11:14 +0000-->
+                    </date>
+                    <locale key="locale" localeIdentifier="zh_CN"/>
+                </datePicker>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uch-M2-ta4" firstAttribute="leading" secondItem="fkS-2d-Pr2" secondAttribute="leading" id="Auk-dT-eFr"/>
+                <constraint firstAttribute="trailing" secondItem="uch-M2-ta4" secondAttribute="trailing" id="C6R-J8-Yl7"/>
+                <constraint firstAttribute="bottom" secondItem="Ur2-nc-1FA" secondAttribute="bottom" id="GPJ-Gp-AMo"/>
+                <constraint firstItem="uch-M2-ta4" firstAttribute="top" secondItem="fkS-2d-Pr2" secondAttribute="top" id="RQ6-48-cLF"/>
+                <constraint firstItem="Ur2-nc-1FA" firstAttribute="leading" secondItem="fkS-2d-Pr2" secondAttribute="leading" id="aqr-6E-DsB"/>
+                <constraint firstAttribute="trailing" secondItem="Ur2-nc-1FA" secondAttribute="trailing" id="eT3-ss-HOF"/>
+                <constraint firstItem="Ur2-nc-1FA" firstAttribute="top" secondItem="uch-M2-ta4" secondAttribute="bottom" id="uAV-rS-BbL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="datePicker" destination="Ur2-nc-1FA" id="lYw-bx-nWh"/>
+                <outlet property="doneBtn" destination="iOR-7T-Aa3" id="as0-iC-d22"/>
+            </connections>
+            <point key="canvasLocation" x="588" y="341.5"/>
+        </view>
+    </objects>
+</document>

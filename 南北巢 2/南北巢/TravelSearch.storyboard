@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iiF-ZB-VBp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Travel Search Controller-->
+        <scene sceneID="5NB-kj-ifI">
+            <objects>
+                <viewController id="iiF-ZB-VBp" customClass="NTGTravelSearchController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qtP-Kz-c7u"/>
+                        <viewControllerLayoutGuide type="bottom" id="V0P-n1-jGz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z11-Gf-nwn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZMr-hG-Lrj" customClass="NTGOldTravelTableView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZMr-hG-Lrj" firstAttribute="top" secondItem="Z11-Gf-nwn" secondAttribute="top" id="fHJ-NV-Oaf"/>
+                            <constraint firstItem="ZMr-hG-Lrj" firstAttribute="leading" secondItem="Z11-Gf-nwn" secondAttribute="leading" id="kif-ES-wzw"/>
+                            <constraint firstAttribute="bottom" secondItem="ZMr-hG-Lrj" secondAttribute="bottom" id="mUa-gG-v5a"/>
+                            <constraint firstAttribute="trailing" secondItem="ZMr-hG-Lrj" secondAttribute="trailing" id="vK5-DI-5gr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="travelTable" destination="ZMr-hG-Lrj" id="Wbv-Z2-vCL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ypm-4P-GMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="547" y="925"/>
+        </scene>
+    </scenes>
+</document>

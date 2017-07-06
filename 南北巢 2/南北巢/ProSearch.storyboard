@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eAM-Q9-mLP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pro Search Controller-->
+        <scene sceneID="Srq-M9-Eed">
+            <objects>
+                <viewController id="eAM-Q9-mLP" customClass="NTGProSearchController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VTi-Zs-atl"/>
+                        <viewControllerLayoutGuide type="bottom" id="2kN-QN-2Hl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vya-EO-Nee">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iF6-AM-5Hk" customClass="NTGProductTableView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="iF6-AM-5Hk" secondAttribute="bottom" id="Fto-lH-eh1"/>
+                            <constraint firstItem="iF6-AM-5Hk" firstAttribute="leading" secondItem="vya-EO-Nee" secondAttribute="leading" id="Pj8-yD-eAM"/>
+                            <constraint firstAttribute="trailing" secondItem="iF6-AM-5Hk" secondAttribute="trailing" id="quw-ZC-SXU"/>
+                            <constraint firstItem="iF6-AM-5Hk" firstAttribute="top" secondItem="vya-EO-Nee" secondAttribute="top" id="rXV-VY-tbc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="productTable" destination="iF6-AM-5Hk" id="8Sd-iI-KZ1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UDe-yK-TAV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544" y="1583"/>
+        </scene>
+    </scenes>
+</document>

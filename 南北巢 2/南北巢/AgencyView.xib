@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="SKY-0z-gNe" customClass="NTGAgencyView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="242" text="&quot;发现&quot;为你精选" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aH-Nr-Bpx">
+                    <rect key="frame" x="35" y="22" width="340" height="46"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" red="0.89019607840000003" green="0.46666666670000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="各具特色养老机构，根据您的喜好我们将会为您打造专属您的养老机构..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhE-I9-ex8">
+                    <rect key="frame" x="35" y="87" width="290" height="46.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.89019607840000003" green="0.46666666670000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHw-MM-HeM">
+                    <rect key="frame" x="48" y="163.5" width="318" height="92.5"/>
+                    <state key="normal" backgroundImage="qiwen_dischoose"/>
+                    <state key="highlighted" backgroundImage="qiwen_choose"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="SKY-0z-gNe" eventType="touchUpInside" id="7ej-cK-ibl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="300" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="za9-ll-JuB">
+                    <rect key="frame" x="48" y="387.5" width="318" height="92.5"/>
+                    <state key="normal" backgroundImage="shuiyuan_dischoose"/>
+                    <state key="highlighted" backgroundImage="shuiyuan_choose"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="SKY-0z-gNe" eventType="touchUpInside" id="QB2-hf-eGm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrR-OV-QLb">
+                    <rect key="frame" x="48" y="276" width="318" height="91.5"/>
+                    <state key="normal" backgroundImage="kongqi_dischoose"/>
+                    <state key="highlighted" backgroundImage="kongqi_choose"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="SKY-0z-gNe" eventType="touchUpInside" id="hd7-v3-h20"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="400" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88q-9k-zDo">
+                    <rect key="frame" x="48" y="500" width="318" height="92"/>
+                    <state key="normal" backgroundImage="shidu_dischoose"/>
+                    <state key="highlighted" backgroundImage="shidu_choose"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="SKY-0z-gNe" eventType="touchUpInside" id="mp0-gb-pD1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZhE-I9-ex8" firstAttribute="leading" secondItem="SKY-0z-gNe" secondAttribute="leading" constant="20" id="1mu-2g-MyI"/>
+                <constraint firstItem="88q-9k-zDo" firstAttribute="height" secondItem="4aH-Nr-Bpx" secondAttribute="height" multiplier="2" id="1o0-YI-wjv"/>
+                <constraint firstItem="4aH-Nr-Bpx" firstAttribute="top" secondItem="SKY-0z-gNe" secondAttribute="top" constant="22" id="3Xk-5X-VdK"/>
+                <constraint firstItem="SrR-OV-QLb" firstAttribute="leading" secondItem="RHw-MM-HeM" secondAttribute="leading" id="5z5-p0-Ieh"/>
+                <constraint firstAttribute="trailing" secondItem="za9-ll-JuB" secondAttribute="trailing" constant="9" id="Hin-rE-Yti"/>
+                <constraint firstItem="4aH-Nr-Bpx" firstAttribute="leading" secondItem="SKY-0z-gNe" secondAttribute="leading" constant="35" id="IVK-F2-6b5"/>
+                <constraint firstItem="RHw-MM-HeM" firstAttribute="leading" secondItem="SKY-0z-gNe" secondAttribute="leading" constant="48" id="LPH-Hl-gCN"/>
+                <constraint firstAttribute="trailing" secondItem="4aH-Nr-Bpx" secondAttribute="trailing" id="MGb-DM-U3t"/>
+                <constraint firstAttribute="trailing" secondItem="88q-9k-zDo" secondAttribute="trailing" constant="9" id="Sb3-3B-Zvi"/>
+                <constraint firstItem="ZhE-I9-ex8" firstAttribute="top" secondItem="4aH-Nr-Bpx" secondAttribute="bottom" constant="19" id="Z8T-fr-iuj"/>
+                <constraint firstItem="88q-9k-zDo" firstAttribute="leading" secondItem="RHw-MM-HeM" secondAttribute="leading" id="Z9X-QO-fVz"/>
+                <constraint firstItem="ZhE-I9-ex8" firstAttribute="leading" secondItem="4aH-Nr-Bpx" secondAttribute="leading" id="ZgK-aL-5TR"/>
+                <constraint firstAttribute="trailing" secondItem="SrR-OV-QLb" secondAttribute="trailing" constant="9" id="bRa-ma-e7g"/>
+                <constraint firstAttribute="trailing" secondItem="ZhE-I9-ex8" secondAttribute="trailing" constant="50" id="dzt-lU-UKP"/>
+                <constraint firstItem="88q-9k-zDo" firstAttribute="top" secondItem="za9-ll-JuB" secondAttribute="bottom" constant="20" id="eVK-Ne-wv4"/>
+                <constraint firstItem="RHw-MM-HeM" firstAttribute="height" secondItem="4aH-Nr-Bpx" secondAttribute="height" multiplier="2" id="enF-ed-goi"/>
+                <constraint firstAttribute="bottom" secondItem="88q-9k-zDo" secondAttribute="bottom" constant="75" id="hhc-NL-Brl"/>
+                <constraint firstItem="RHw-MM-HeM" firstAttribute="top" secondItem="ZhE-I9-ex8" secondAttribute="bottom" constant="30" id="jJ3-0U-2Ig"/>
+                <constraint firstItem="za9-ll-JuB" firstAttribute="top" secondItem="SrR-OV-QLb" secondAttribute="bottom" constant="20" id="laN-Vn-C1e"/>
+                <constraint firstItem="za9-ll-JuB" firstAttribute="height" secondItem="4aH-Nr-Bpx" secondAttribute="height" multiplier="2" id="oRu-UI-PWd"/>
+                <constraint firstAttribute="trailing" secondItem="RHw-MM-HeM" secondAttribute="trailing" constant="9" id="olQ-d7-7dp"/>
+                <constraint firstItem="ZhE-I9-ex8" firstAttribute="height" secondItem="4aH-Nr-Bpx" secondAttribute="height" id="tgy-km-pAU"/>
+                <constraint firstItem="za9-ll-JuB" firstAttribute="leading" secondItem="RHw-MM-HeM" secondAttribute="leading" id="uir-1X-JDW"/>
+                <constraint firstItem="SrR-OV-QLb" firstAttribute="top" secondItem="RHw-MM-HeM" secondAttribute="bottom" constant="20" id="umC-OA-l37"/>
+                <constraint firstItem="SrR-OV-QLb" firstAttribute="height" secondItem="4aH-Nr-Bpx" secondAttribute="height" multiplier="2" id="uyv-aS-Pfb"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="1mu-2g-MyI"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="586" y="402"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="kongqi_choose" width="665" height="174"/>
+        <image name="kongqi_dischoose" width="665" height="174"/>
+        <image name="qiwen_choose" width="665" height="174"/>
+        <image name="qiwen_dischoose" width="665" height="174"/>
+        <image name="shidu_choose" width="665" height="174"/>
+        <image name="shidu_dischoose" width="665" height="174"/>
+        <image name="shuiyuan_choose" width="665" height="174"/>
+        <image name="shuiyuan_dischoose" width="665" height="174"/>
+    </resources>
+</document>

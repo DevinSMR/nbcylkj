@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.69999999999999996" contentMode="scaleToFill" id="ir7-fT-VSE" customClass="NTGTravelIntroView">
+            <rect key="frame" x="0.0" y="0.0" width="506" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="xiangzi" translatesAutoresizingMaskIntoConstraints="NO" id="fwi-Sz-zHg">
+                    <rect key="frame" x="15" y="37" width="15" height="15"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6C-uO-vOS">
+                    <rect key="frame" x="37" y="37" width="31" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="chufa" translatesAutoresizingMaskIntoConstraints="NO" id="uEd-jI-IPx">
+                    <rect key="frame" x="82" y="37" width="15" height="15"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZN-HL-zMu">
+                    <rect key="frame" x="104" y="38" width="31" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="xingcheng" translatesAutoresizingMaskIntoConstraints="NO" id="AkO-5Y-iwZ">
+                    <rect key="frame" x="149" y="38" width="15" height="15"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f10-gh-l5m">
+                    <rect key="frame" x="171" y="39" width="31" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AkO-5Y-iwZ" firstAttribute="leading" secondItem="kZN-HL-zMu" secondAttribute="trailing" constant="14" id="0lD-xf-XE1"/>
+                <constraint firstItem="AkO-5Y-iwZ" firstAttribute="centerY" secondItem="kZN-HL-zMu" secondAttribute="centerY" id="85H-sm-xlS"/>
+                <constraint firstItem="fwi-Sz-zHg" firstAttribute="leading" secondItem="ir7-fT-VSE" secondAttribute="leading" constant="15" id="BDC-ve-cEU"/>
+                <constraint firstItem="c6C-uO-vOS" firstAttribute="centerY" secondItem="fwi-Sz-zHg" secondAttribute="centerY" id="Nal-py-hpg"/>
+                <constraint firstItem="kZN-HL-zMu" firstAttribute="centerY" secondItem="uEd-jI-IPx" secondAttribute="centerY" id="PDm-6W-9Q7"/>
+                <constraint firstItem="f10-gh-l5m" firstAttribute="centerY" secondItem="AkO-5Y-iwZ" secondAttribute="centerY" id="PKH-3D-paO"/>
+                <constraint firstItem="f10-gh-l5m" firstAttribute="leading" secondItem="AkO-5Y-iwZ" secondAttribute="trailing" constant="7" id="Sjq-b7-MJy"/>
+                <constraint firstItem="kZN-HL-zMu" firstAttribute="leading" secondItem="uEd-jI-IPx" secondAttribute="trailing" constant="7" id="dld-Xy-JAQ"/>
+                <constraint firstItem="fwi-Sz-zHg" firstAttribute="centerY" secondItem="ir7-fT-VSE" secondAttribute="centerY" id="gHA-1F-kDH"/>
+                <constraint firstItem="uEd-jI-IPx" firstAttribute="leading" secondItem="c6C-uO-vOS" secondAttribute="trailing" constant="14" id="hEX-5T-sbb"/>
+                <constraint firstItem="c6C-uO-vOS" firstAttribute="leading" secondItem="fwi-Sz-zHg" secondAttribute="trailing" constant="7" id="tc4-72-9CM"/>
+                <constraint firstItem="uEd-jI-IPx" firstAttribute="centerY" secondItem="c6C-uO-vOS" secondAttribute="centerY" id="xll-rA-1cG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="descr" destination="kZN-HL-zMu" id="N3M-x5-9e5"/>
+                <outlet property="name" destination="c6C-uO-vOS" id="1ms-WB-Jqv"/>
+                <outlet property="tripdays" destination="f10-gh-l5m" id="QGx-4D-q12"/>
+            </connections>
+            <point key="canvasLocation" x="553" y="295"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chufa" width="15" height="15"/>
+        <image name="xiangzi" width="15" height="15"/>
+        <image name="xingcheng" width="15" height="15"/>
+    </resources>
+</document>
