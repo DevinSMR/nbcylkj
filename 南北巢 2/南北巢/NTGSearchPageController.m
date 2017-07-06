@@ -26,9 +26,10 @@
 
     NSArray *array = [[DBManager shareManager] selectAllSearchHistory];
     _historyArray = [NSMutableArray arrayWithArray:array];
-    _historyArray = [NSMutableArray arrayWithObjects:@"李克强",@"北京",@"里约奥运",@"傅园慧的",@"王宝强烧烤架",@"中国女排",@"傅园慧",@"王宝强烧烤架",@"中国女排",@"傅园慧",@"王宝强烧烤架撒大声地",@"中国女排", nil];
+//    _historyArray = [NSMutableArray arrayWithObjects:@"李克强",@"北京",@"里约奥运",@"傅园慧的",@"王宝强烧烤架",@"中国女排",@"傅园慧",@"王宝强烧烤架",@"中国女排",@"傅园慧",@"王宝强烧烤架撒大声地",@"中国女排", nil];
    [self.collectionView reloadData];
     _searchTF.text = nil;
+    _searchTF.returnKeyType = UIReturnKeySearch;
    [_searchTF resignFirstResponder];
     _collectionView.collectionViewLayout = [[NTGCustomLayout alloc] init];
     _collectionView.delegate = self;
@@ -60,9 +61,9 @@
         
         if ([_historyArray indexOfObject:_searchTF.text] == NSNotFound) {
             [[DBManager shareManager] saveSearchHistory:_searchTF.text Success:^(BOOL result) {
+                NSLog(@"插入数据成功");
             }];
         }
-        [[DBManager shareManager] deleteSearchHistory];
         NSArray *array = [[DBManager shareManager] selectAllSearchHistory];
         _historyArray = [NSMutableArray arrayWithArray:array];
         [self.collectionView reloadData];

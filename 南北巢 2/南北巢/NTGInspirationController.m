@@ -56,9 +56,6 @@
     [formatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
     NSString*confromTimespStr = [formatter stringFromDate:d];
     self.lblTime.text = confromTimespStr;
-    self.memberPraise.text = [NSString stringWithFormat:@"%d",self.memberArticle.memberPraiseNum];
-
-    self.commentNum.text = [NSString stringWithFormat:@"%ld",self.memberArticle.commentNum];
     [self.webIntro loadHTMLString:self.memberArticle.introduction baseURL:nil];
     self.webIntro.delegate = self;
     

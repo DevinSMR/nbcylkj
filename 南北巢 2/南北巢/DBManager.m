@@ -29,7 +29,7 @@ static FMDatabase *database = nil;
     //打开创建数据库
     database = [FMDatabase databaseWithPath:dbPath];
     if ([database open]) {
-        NSLog(@"数据库打开成功");
+//        NSLog(@"数据库打开成功");
     }
 }
 
@@ -41,7 +41,7 @@ static FMDatabase *database = nil;
     NSString *sql = @"CREATE TABLE IF NOT EXISTS table_history (searchid INTEGER PRIMARY KEY AUTOINCREMENT,searchHistory TEXT)";
     BOOL result = [database executeUpdate:sql];
     if (result) {
-        NSLog(@"创建表成功");
+//        NSLog(@"创建表成功");
     }
 }
 
@@ -66,7 +66,7 @@ static FMDatabase *database = nil;
     [self createTable];
     BOOL result = [database executeUpdate:@"DELETE FROM table_history"];
     if (result) {
-        NSLog(@"删除成功");
+//        NSLog(@"删除成功");
     }
 }
 

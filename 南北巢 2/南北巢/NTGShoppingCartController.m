@@ -237,9 +237,8 @@
         self.lblPrice.text = [NSString stringWithFormat:@""];
         self.allSelect.text = @"全选";
         [self.editBtn setTitle:@"完成" forState:UIControlStateNormal];
-        [self.deleteBtn setImage:[UIImage imageNamed:@"delete.png"] forState:UIControlStateNormal];
         [self.deleteBtn setTitle:@"删除" forState:UIControlStateNormal];
-        [self.deleteBtn setBackgroundColor:[UIColor lightGrayColor]];
+        [self.deleteBtn setBackgroundColor:[UIColor orangeColor]];
         self.editBtn.selected = YES;
     }else {
         [self.editBtn setTitle:@"编辑" forState:UIControlStateNormal];
