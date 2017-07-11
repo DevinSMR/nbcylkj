@@ -12,10 +12,15 @@
 #import "DBManager.h"
 #import "NTGCustomLayout.h"
 #import "NTGMBProgressHUD.h"
+#import "NTGBusinessResult.h"
+#import "NTGSendRequest.h"
+#import "NTGIntegrationSearch.h"
+#import "NTGSearchResultController.h"
 @interface NTGSearchPageController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (weak, nonatomic) IBOutlet UITextField *searchTF;
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (nonatomic,strong) NSMutableArray *historyArray;
+@property (nonatomic,strong) NTGIntegrationSearch *searchResult;
 @end
 
 @implementation NTGSearchPageController
@@ -55,6 +60,7 @@
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     if ([[textField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] isEqualToString:@""]){
+        [NTGMBProgressHUD alertView:@"搜索内容不能为空" view:self.view];
         return NO;
     }
     if (_searchTF.text.length > 0) {
@@ -64,6 +70,19 @@
                 NSLog(@"插入数据成功");
             }];
         }
+//        NTGBusinessResult *result = [[NTGBusinessResult alloc] initWithNavController:self.navigationController removePreCtrol:NO];
+//        result.onSuccess = ^(NTGIntegrationSearch *object){
+//            NSLog(@"请求数据成功");
+//            self.searchResult = object;
+//            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"NTGSearch" bundle:nil];
+//            NTGSearchResultController *controller = [storyboard instantiateViewControllerWithIdentifier:@"searchResult"];
+//            controller.searchResult = object;
+//            [self.navigationController pushViewController:controller animated:YES];
+//        
+//        };
+//        NSDictionary *dict = @{@"keyword":self.searchTF.text};
+//        [NTGSendRequest newIntegrationSearch:dict success:result];
+        
         NSArray *array = [[DBManager shareManager] selectAllSearchHistory];
         _historyArray = [NSMutableArray arrayWithArray:array];
         [self.collectionView reloadData];

@@ -51,6 +51,9 @@
 #import "NTGDetection.h"
 #import "NTGMBProgressHUD.h"
 #import "NTGMemberPhotoAlbum.h"
+#import "NTGIntegrationSearch.h"
+#import "NTGIntegrationSearch.h"
+#import "NTGProductResult.h"
 #import <UIKit/UIKit.h>
 /**
  * control - 业务请求帮助类
@@ -1090,6 +1093,19 @@
     [[NTGNetworkTool sharedNetworkTool]requestMethod:method urlString:UrlString params:dict  multipartFormData:multipartFormData result:resultblock];
 }
 
+/** 新版综合分类搜索 */
++ (void)newIntegrationSearch:(NSDictionary *)params success:(NTGBusinessResult *)sb{
+    void(^s)(id responseObject) = ^(id responseObject) {
+//        NTGInstitutionPage *inst = [NTGInstitutionPage objectWithKeyValues:[responseObject objectForKey:@"institutionPage"]];
+//        NTGProductResult *pro = [NTGProductResult objectWithKeyValues:[responseObject objectForKey:@"productPage"]];
+        //        NTGIntegrationSearch *result = [[NTGIntegrationSearch alloc] init];
+        //        result.institutionPage = inst;
+        //        result.productPage = pro;
+        
+        NTGIntegrationSearch *result = [NTGIntegrationSearch objectWithKeyValues:responseObject];
 
+        sb.onSuccess(result);
+    };
+    [NTGSendRequest sendHttpRequest:YGNetworkMethodGET urlString:@"/app/integration/searchEx.jhtml" params:params innerSuccessWrapper:s result:sb];}
 
 @end

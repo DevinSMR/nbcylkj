@@ -299,4 +299,7 @@ typedef void(^BusinessResultBlock)(id responseObject);
 /** 提交旅游订单 */
 + (void)createTripOrder:(NSDictionary *)params success:(NTGBusinessResult *)sb;
 
+/** 新版综合分类搜索 */
++ (void)newIntegrationSearch:(NSDictionary *)params success:(NTGBusinessResult *)sb;
+
 @end
