@@ -414,18 +414,18 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yg-HR-br1">
-                                        <rect key="frame" x="99" y="7" width="9" height="9"/>
+                                        <rect key="frame" x="99" y="7" width="14" height="14"/>
                                         <color key="backgroundColor" red="1" green="0.1522355306" blue="0.24684427610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="9" id="GcQ-Nm-SYF"/>
-                                            <constraint firstAttribute="width" constant="9" id="mj8-qe-bTN"/>
+                                            <constraint firstAttribute="height" constant="14" id="GcQ-Nm-SYF"/>
+                                            <constraint firstAttribute="width" constant="14" id="mj8-qe-bTN"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="7"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <real key="value" value="4.5"/>
+                                                <integer key="value" value="7"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
@@ -514,7 +514,7 @@
                                     <constraint firstItem="7bz-N7-5hO" firstAttribute="leading" secondItem="nCF-NI-ClH" secondAttribute="leading" constant="20" id="F8N-NZ-Hmf"/>
                                     <constraint firstItem="hRi-Fa-bHf" firstAttribute="leading" secondItem="nCF-NI-ClH" secondAttribute="leading" id="G9B-bl-IEW"/>
                                     <constraint firstItem="tf8-tg-L9B" firstAttribute="leading" secondItem="ZSP-v2-yj6" secondAttribute="trailing" id="HRc-pM-mL2"/>
-                                    <constraint firstItem="oHT-i4-rAt" firstAttribute="leading" secondItem="7yg-HR-br1" secondAttribute="trailing" constant="17" id="IHD-xE-jWf"/>
+                                    <constraint firstItem="oHT-i4-rAt" firstAttribute="leading" secondItem="7yg-HR-br1" secondAttribute="trailing" constant="12" id="IHD-xE-jWf"/>
                                     <constraint firstAttribute="bottom" secondItem="oHT-i4-rAt" secondAttribute="bottom" id="Jmm-Z5-Ct1"/>
                                     <constraint firstItem="RVK-bs-G8y" firstAttribute="top" secondItem="nCF-NI-ClH" secondAttribute="top" constant="7" id="Jo3-9F-JaW"/>
                                     <constraint firstItem="oHT-i4-rAt" firstAttribute="leading" secondItem="RVK-bs-G8y" secondAttribute="trailing" constant="20" id="Kcg-cI-r9n"/>

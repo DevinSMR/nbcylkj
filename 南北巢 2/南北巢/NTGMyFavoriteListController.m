@@ -119,11 +119,15 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"NTGProductDetail" bundle:nil];
-    NTGProductDetailController *productDetailController = [storyboard instantiateInitialViewController];
-    productDetailController.product = self.sellers[indexPath.row];
-    [self.navigationController pushViewController:productDetailController animated:YES];
+    if ([_editBtn.titleLabel.text isEqualToString:@"编辑"]) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"NTGProductDetail" bundle:nil];
+        NTGProductDetailController *productDetailController = [storyboard instantiateInitialViewController];
+        productDetailController.product = self.sellers[indexPath.row];
+        [self.navigationController pushViewController:productDetailController animated:YES];
+
+    }
 }
+
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     NSString * selectProductIds = [self getAllSelectProductIds];
     if (buttonIndex == 1) {
