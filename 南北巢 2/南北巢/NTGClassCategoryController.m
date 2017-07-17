@@ -20,7 +20,7 @@
 #import "NTGFilterCell.h"
 #import "NTGAttributeCell.h"
 #import <MJRefresh.h>
-
+#import "NTGStandardView.h"
 /**
  * control - 分类机构列表控制器
  *
@@ -42,6 +42,7 @@
 @property (nonatomic,strong) NTGAttributeView *attributeView;
 @property (nonatomic,strong) NSIndexPath *index;
 
+@property (nonatomic,strong) NTGStandardView *standView;
 @end
 
 @implementation NTGClassCategoryController
@@ -255,24 +256,57 @@
 
 /** 筛选 按钮 */
 - (IBAction)filterBtn:(id)sender {
+
     UIButton *btn = (UIButton *)sender;
-    self.filterView = [NTGFilterView viewWithView];
-    self.filterView.frame = CGRectMake(80, 0, self.view.frame.size.width-80, self.view.frame.size.height-20);
-    self.filterView.attributes = self.attribute;
-    self.filterView.delegateFilter = self;
-    [[UIApplication sharedApplication].keyWindow addSubview:self.filterView];
-    [self.filterView.backBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
-    [self.filterView.confirmBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
-    [self.filterView.deleteBtn addTarget:self action:@selector(deleteBtn) forControlEvents:UIControlEventTouchUpInside];
+//    self.filterView = [NTGFilterView viewWithView];
+//    self.filterView.frame = CGRectMake(80, 0, self.view.frame.size.width-80, self.view.frame.size.height-20);
+//    self.filterView.attributes = self.attribute;
+//    self.filterView.delegateFilter = self;
+//    [[UIApplication sharedApplication].keyWindow addSubview:self.filterView];
+//    [self.filterView.backBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+//    [self.filterView.confirmBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+//    [self.filterView.deleteBtn addTarget:self action:@selector(deleteBtn) forControlEvents:UIControlEventTouchUpInside];
+//    
+//    if (!self.coverFilterView) {
+//        self.coverFilterView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 80, UI_SCREEN_HEIGHT-20)];
+//        self.coverFilterView.backgroundColor = [UIColor blackColor];
+//        self.coverFilterView.alpha = 0.5;
+//        [[UIApplication sharedApplication].keyWindow addSubview:self.coverFilterView];
+//        [self bindTap:self.coverFilterView];
+//    }
+//    self.coverFilterView.hidden = btn.selected;
+    NTGStandardView *standardView = [NTGStandardView viewWithView];
+    standardView.frame = CGRectMake(45, 65, self.view.frame.size.width-45, self.view.frame.size.height-65);
+    standardView.attributes = self.attribute;
+    self.standView = standardView;
+//    [[UIApplication sharedApplication].keyWindow addSubview:standardView];
+    [self.standView.confirmBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    [self.standView.chooseAreaBtn addTarget:self action:@selector(chooseArea) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.standView];
+        if (!self.coverFilterView) {
+            self.coverFilterView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 45, UI_SCREEN_HEIGHT)];
+            self.coverFilterView.backgroundColor = [UIColor blackColor];
+            self.coverFilterView.alpha = 0.5;
+            [[UIApplication sharedApplication].keyWindow addSubview:self.coverFilterView];
+            [self bindTap:self.coverFilterView];
+        }
+        self.coverFilterView.hidden = btn.selected;
+
+}
+
+-(void)chooseArea{
     
-    if (!self.coverFilterView) {
-        self.coverFilterView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 80, UI_SCREEN_HEIGHT-20)];
-        self.coverFilterView.backgroundColor = [UIColor blackColor];
-        self.coverFilterView.alpha = 0.5;
-        [[UIApplication sharedApplication].keyWindow addSubview:self.coverFilterView];
-        [self bindTap:self.coverFilterView];
-    }
-    self.coverFilterView.hidden = btn.selected;
+    self.attributeView = [NTGAttributeView viewWithView];
+    self.attributeView.frame = CGRectMake(0, 0, self.view.frame.size.width-80, self.view.frame.size.height-20);
+    NTGAttribute *attribute = self.attribute[0];
+    self.attributeView.attibuteOptions = attribute.option;
+    self.attributeView.delegateAttribute = self;
+    
+    self.attributeView.lblTitle.text = attribute.name;
+    [self.standView addSubview:self.attributeView];
+    [self.attributeView.backBtn addTarget:self action:@selector(confirmBtn) forControlEvents:UIControlEventTouchUpInside];
+    [self.attributeView.confirmBtn addTarget:self action:@selector(confirmBtn) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
 /** 筛选 返回 */

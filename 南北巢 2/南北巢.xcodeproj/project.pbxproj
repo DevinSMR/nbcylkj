@@ -21,6 +21,12 @@
 		2506A2731F0F67C7003F8EF8 /* NTGInstitutionPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2506A2721F0F67C7003F8EF8 /* NTGInstitutionPage.m */; };
 		2506A2761F0F69B4003F8EF8 /* NTGProductResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2506A2751F0F69B4003F8EF8 /* NTGProductResult.m */; };
 		2507F70D1CC62710006A7739 /* NTGIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2507F70C1CC62710006A7739 /* NTGIntegration.m */; };
+		250B10F61F17415A0097F630 /* NTGStandardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 250B10F51F17415A0097F630 /* NTGStandardView.m */; };
+		250B10F81F1741740097F630 /* NTGStandardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 250B10F71F1741740097F630 /* NTGStandardView.xib */; };
+		250B10FC1F1752380097F630 /* NTGStandardReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 250B10FA1F1752380097F630 /* NTGStandardReusableView.m */; };
+		250B10FD1F1752380097F630 /* NTGStandardReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 250B10FB1F1752380097F630 /* NTGStandardReusableView.xib */; };
+		250B11011F1752510097F630 /* NTGStandardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 250B10FF1F1752510097F630 /* NTGStandardCell.m */; };
+		250B11021F1752510097F630 /* NTGStandardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 250B11001F1752510097F630 /* NTGStandardCell.xib */; };
 		250E64C61C3E056C00AB5FB8 /* NTGChangeReceiverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E64C51C3E056C00AB5FB8 /* NTGChangeReceiverController.m */; };
 		25156AAB1D3C75F4001AE5E2 /* NTGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25156AAA1D3C75F4001AE5E2 /* NTGViewController.m */; };
 		25156AAE1D3C9E5D001AE5E2 /* NTGPhotoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25156AAD1D3C9E5D001AE5E2 /* NTGPhotoListCell.m */; };
@@ -482,6 +488,15 @@
 		2506A2751F0F69B4003F8EF8 /* NTGProductResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGProductResult.m; sourceTree = "<group>"; };
 		2507F70B1CC62710006A7739 /* NTGIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGIntegration.h; sourceTree = "<group>"; };
 		2507F70C1CC62710006A7739 /* NTGIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGIntegration.m; sourceTree = "<group>"; };
+		250B10F41F17415A0097F630 /* NTGStandardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGStandardView.h; sourceTree = "<group>"; };
+		250B10F51F17415A0097F630 /* NTGStandardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGStandardView.m; sourceTree = "<group>"; };
+		250B10F71F1741740097F630 /* NTGStandardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTGStandardView.xib; sourceTree = "<group>"; };
+		250B10F91F1752380097F630 /* NTGStandardReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGStandardReusableView.h; sourceTree = "<group>"; };
+		250B10FA1F1752380097F630 /* NTGStandardReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGStandardReusableView.m; sourceTree = "<group>"; };
+		250B10FB1F1752380097F630 /* NTGStandardReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTGStandardReusableView.xib; sourceTree = "<group>"; };
+		250B10FE1F1752510097F630 /* NTGStandardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGStandardCell.h; sourceTree = "<group>"; };
+		250B10FF1F1752510097F630 /* NTGStandardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGStandardCell.m; sourceTree = "<group>"; };
+		250B11001F1752510097F630 /* NTGStandardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTGStandardCell.xib; sourceTree = "<group>"; };
 		250E64C41C3E056C00AB5FB8 /* NTGChangeReceiverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGChangeReceiverController.h; sourceTree = "<group>"; };
 		250E64C51C3E056C00AB5FB8 /* NTGChangeReceiverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGChangeReceiverController.m; sourceTree = "<group>"; };
 		25156AA91D3C75F4001AE5E2 /* NTGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGViewController.h; sourceTree = "<group>"; };
@@ -1356,6 +1371,15 @@
 				25CFCACF1EF0C63200BBB2D1 /* NTGShareView.h */,
 				25CFCAD01EF0C63200BBB2D1 /* NTGShareView.m */,
 				25CFCACD1EF0C61F00BBB2D1 /* NTGShareView.xib */,
+				250B10F41F17415A0097F630 /* NTGStandardView.h */,
+				250B10F51F17415A0097F630 /* NTGStandardView.m */,
+				250B10F71F1741740097F630 /* NTGStandardView.xib */,
+				250B10F91F1752380097F630 /* NTGStandardReusableView.h */,
+				250B10FA1F1752380097F630 /* NTGStandardReusableView.m */,
+				250B10FB1F1752380097F630 /* NTGStandardReusableView.xib */,
+				250B10FE1F1752510097F630 /* NTGStandardCell.h */,
+				250B10FF1F1752510097F630 /* NTGStandardCell.m */,
+				250B11001F1752510097F630 /* NTGStandardCell.xib */,
 			);
 			name = "Oldmall(老年商城)";
 			sourceTree = "<group>";
@@ -2678,6 +2702,7 @@
 				2562A8281CC8D9D7002C0F11 /* NTGAttributeView.xib in Resources */,
 				25F37CB71BF9ADFA005DF773 /* AgencyPage.storyboard in Resources */,
 				2560A1EC1C44E5FE0099E8AF /* HMScanner.bundle in Resources */,
+				250B10F81F1741740097F630 /* NTGStandardView.xib in Resources */,
 				2575DFFC1EEE8397002D766F /* NTGProCountCell.xib in Resources */,
 				25FC1CFC1C1028DF00BA58AB /* NTGTravelBuy.storyboard in Resources */,
 				2550CF801C7EB27F004903F8 /* NTGCommentCell.xib in Resources */,
@@ -2710,6 +2735,7 @@
 				257325E01C34D762006F1F67 /* NTGConfirmOrder.storyboard in Resources */,
 				256949B41D11379A007A3E9E /* NTGTravelIntroView.xib in Resources */,
 				25CFCB271EF0E37900BBB2D1 /* ShareSDKUI.bundle in Resources */,
+				250B10FD1F1752380097F630 /* NTGStandardReusableView.xib in Resources */,
 				52C0574C1BCFA03600E23EE2 /* Home.storyboard in Resources */,
 				25D0654C1BF437C5008FA24C /* RujiaPension.storyboard in Resources */,
 				25ECFBD31BF06D3C0052D883 /* OldTravel.storyboard in Resources */,
@@ -2723,6 +2749,7 @@
 				253E29AD1C45E3D300EA4FBD /* NTGOrderCell.xib in Resources */,
 				257983C21EA9B0C500BB2B4E /* NTGCommentReplyTopCell.xib in Resources */,
 				25F404B21C152A9000729E3E /* NTGEstateDetail.storyboard in Resources */,
+				250B11021F1752510097F630 /* NTGStandardCell.xib in Resources */,
 				2562A8181CC87B15002C0F11 /* NTGFilterView.xib in Resources */,
 				25DB91601C2D44C000FD02BA /* NTGMyProfile.storyboard in Resources */,
 				25F358DE1BFEE45E00253766 /* Insurance.storyboard in Resources */,
@@ -3036,6 +3063,7 @@
 				25526A771C759AE100E113DE /* NTGTravelSearchController.m in Sources */,
 				25D4D2E41EB9C58700EE0048 /* NTGManagePhotoAlbumController.m in Sources */,
 				250529061F0C865A00677CDA /* NTGAgencyDetailVC.m in Sources */,
+				250B10F61F17415A0097F630 /* NTGStandardView.m in Sources */,
 				25F90D6B1BFABCA0005FAB79 /* NTGProductSellerAttrWrapper.m in Sources */,
 				25F90D521BFABCA0005FAB79 /* NTGHotCity.m in Sources */,
 				251D638A1EA890F100B04E5E /* NTGMemberComments.m in Sources */,
@@ -3061,6 +3089,7 @@
 				2575DFFB1EEE8397002D766F /* NTGProCountCell.m in Sources */,
 				25949F091C02D93A00EB54AB /* NTGContent.m in Sources */,
 				25F90D5F1BFABCA0005FAB79 /* NTGMemberPhotoContent.m in Sources */,
+				250B10FC1F1752380097F630 /* NTGStandardReusableView.m in Sources */,
 				25C0659A1C0C3356003FB90F /* NTGRecommendTableView.m in Sources */,
 				250E64C61C3E056C00AB5FB8 /* NTGChangeReceiverController.m in Sources */,
 				25416C841C2A6A2400BC7BE0 /* Reachability.m in Sources */,
@@ -3127,6 +3156,7 @@
 				2597AC1E1C4CE9980064D8DF /* NTGInstitutionOrderViewController.m in Sources */,
 				2560A3991C7A9C5700BC9E23 /* NTGPersonalView.m in Sources */,
 				2562F3B91C1A7AA9008A3912 /* NTGGuideController.m in Sources */,
+				250B11011F1752510097F630 /* NTGStandardCell.m in Sources */,
 				2562A81B1CC89C1B002C0F11 /* NTGFilterView.m in Sources */,
 				255310771C5B0AF800F642B0 /* NTGNestGuideController.m in Sources */,
 				252DB1E11CEDBCFC00F956AD /* NTGSpecificationTable.m in Sources */,
@@ -3308,7 +3338,7 @@
 					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
 				);
 				INFOPLIST_FILE = "南北巢Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -3397,7 +3427,7 @@
 					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
 				);
 				INFOPLIST_FILE = "南北巢Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
